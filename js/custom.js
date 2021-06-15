@@ -92,38 +92,26 @@
 		}
 
 		/* ----------------------------------------------------------- */
-		/*  AJAX CONTACT FORM
+		/*  CONTACT FORM
         /* ----------------------------------------------------------- */
-
 		$(".contactform").on("submit", function() {
-			$(".output_message").text("Sending...");
+					$(".output_message").text("You have successfully submitted.");
 
-			var form = $(this);
-			$.ajax({
-				url: form.attr("action"),
-				method: form.attr("method"),
-				data: form.serialize(),
-				success: function(result) {
-					if (result == "success") {
-						$(".form-inputs").css("display", "none");
-						$(".box p").css("display", "none");
-						$(".contactform").find(".output_message").addClass("success");
-						$(".output_message").text("Message Sent!");
-					} else {
-						$(".tabs-container").css("height", "440px");
+					var form = $(this);
+					$.ajax({
+						url: form.attr("action"),
+						method: form.attr("method"),
+						data: form.serialize(),
+						
+					});
 
-						$(".contactform").find(".output_message").addClass("error");
-						$(".output_message").text("Error Sending!");
-					}
-				}
+					return false;
+				});
+
 			});
 
-			return false;
-		});
-
-	});
-
-	$(document).keyup(function(e) {
+			$(document).keyup(function(e) {
+		
 
 		/* ----------------------------------------------------------- */
 		/*  KEYBOARD NAVIGATION IN PORTFOLIO SLIDESHOW

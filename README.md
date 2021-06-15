@@ -3,14 +3,18 @@ Template Name: Naiem Hossain - Personal Portfolio
 Author: Naiem Hossain
 Author URI: https://naiemportfolio.blogspot.com/
 Description: Naiem Hossain - Personal Portfolio
-Version: 2.0 Bangla/English
+Version: 2.0
 */
 
 /*------------------------------------------------------------------
 [Table of contents]
+	+ Version
+	    - Bangla
+		- English
 	+ General
 	    - Miscellaneous
 		- Light Body
+		- Dark Body
 		- Buttons
 		- Page Title
 	+ Header
@@ -19,8 +23,7 @@ Version: 2.0 Bangla/English
 	+ Pages
 		- Homepage
 		+ About
-		    - Personal Info List
-			- Box Stats
+		    - Personal Info
 			- Resume
 			- Skills
 		+ Portfolio

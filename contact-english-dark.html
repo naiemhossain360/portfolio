@@ -86,9 +86,15 @@
 <header class="header" id="navbar-collapse-toggle">
     <!-- Fixed Navigation Starts -->
     <ul class="icon-menu d-none d-lg-block revealator-slideup revealator-once revealator-delay1">
+       <li class="icon-box">
+            <i class="fa fa-language"></i>
+            <a href="contact-bangla-dark.html">
+                <h2>Bangla</h2>
+            </a>
+        </li>
         <li class="icon-box">
             <i class="fa fa-sun-o"></i>
-            <a href="light-contact.html">
+            <a href="contact-english-light.html">
                 <h2>Light</h2>
             </a>
         </li>
@@ -99,26 +105,26 @@
             </a>
         </li>
         <li class="icon-box">
-            <i class="fa fa-user"></i>
-            <a href="dark-about.html">
-                <h2>About</h2>
+            <i class="fa fa-users"></i>
+            <a href="#">
+                <h2>Team</h2>
             </a>
         </li>
         <li class="icon-box">
             <i class="fa fa-briefcase"></i>
-            <a href="dark-portfolio.html">
-                <h2>Portfolio</h2>
+            <a href="#">
+                <h2>Service</h2>
             </a>
         </li>
         <li class="icon-box active">
             <i class="fa fa-envelope-open"></i>
-            <a href="dark-contact.html">
+            <a href="contact-english-dark.html">
                 <h2>Contact</h2>
             </a>
         </li>
         <li class="icon-box">
             <i class="fa fa-comments"></i>
-            <a href="dark-blog.html">
+            <a href="#">
                 <h2>Blog</h2>
             </a>
         </li>
@@ -132,12 +138,13 @@
             <span></span>
             <span></span>
             <ul class="list-unstyled" id="menu">
-				<li><a href="light-contact.html"><i class="fa fa-cog"></i><span>Light</span></a></li>
+				<li><a href="contact-bangla-dark.html"><i class="fa fa-language"></i><span>Bangla</span></a></li>
+				<li><a href="contact-english-light.html"><i class="fa fa-sun-o"></i><span>Light</span></a></li>
                 <li><a href="index.html"><i class="fa fa-home"></i><span>Home</span></a></li>
-                <li><a href="dark-about.html"><i class="fa fa-user"></i><span>About</span></a></li>
-                <li><a href="dark-portfolio.html"><i class="fa fa-folder-open"></i><span>Portfolio</span></a></li>
-                <li class="active"><a href="dark-contact.html"><i class="fa fa-envelope-open"></i><span>Contact</span></a></li>
-                <li><a href="dark-blog.html"><i class="fa fa-comments"></i><span>Blog</span></a></li>
+                <li><a href="#"><i class="fa fa-users"></i><span>Team</span></a></li>
+                <li><a href="#"><i class="fa fa-folder-open"></i><span>Services</span></a></li>
+                <li class="active"><a href="contact-english-dark.html"><i class="fa fa-envelope-open"></i><span>Contact</span></a></li>
+                <li><a href="#"><i class="fa fa-comments"></i><span>Blog</span></a></li>
             </ul>
         </div>
     </nav>
@@ -157,7 +164,7 @@
             <!-- Left Side Starts -->
             <div class="col-12 col-lg-4">
                 <h3 class="text-uppercase custom-title mb-0 ft-wt-600 pb-3">Don't be shy !</h3>
-                <p text align="justify" class="open-sans-font mb-3">Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
+                <p text align="justify" class="open-sans-font mb-3">Feel free to get in touch with me. You can use the Contact Form / Live chat option to contact me at any time. Or you can contact using the following Email / Phone number.</p>
                 <p class="open-sans-font custom-span-contact position-relative">
                     <i class="fa fa-envelope-open position-absolute"></i>
                     <span class="d-block">mail me</span>naiemhossain360@gmail.com
@@ -180,20 +187,20 @@
             <!-- Left Side Ends -->
             <!-- Contact Form Starts -->
             <div class="col-12 col-lg-8">
-                <form class="contactform" method="post" action="#">
+                <form class="contactform" method="post" action="https://sheetdb.io/api/v1/lxbzaxxiry9x3">
                     <div class="contactform">
                         <div class="row">
                             <div class="col-12 col-md-4">
-                                <input type="text" name="name" placeholder="YOUR NAME">
+                                <input type="text" name="Name" placeholder="YOUR NAME">
                             </div>
                             <div class="col-12 col-md-4">
-                                <input type="email" name="email" placeholder="YOUR EMAIL">
+                                <input type="email" name="Email" placeholder="YOUR EMAIL">
                             </div>
                             <div class="col-12 col-md-4">
-                                <input type="text" name="subject" placeholder="YOUR SUBJECT">
+                                <input type="text" name="Subject" placeholder="YOUR SUBJECT">
                             </div>
                             <div class="col-12">
-                                <textarea name="message" placeholder="YOUR MESSAGE"></textarea>
+                                <textarea name="Message" placeholder="YOUR MESSAGE"></textarea>
                                 <button type="submit" class="btn btn-contact">Send Message</button>
                             </div>
                             <div class="col-12 form-message">
@@ -208,7 +215,7 @@
     </div>
 
 </section>
-<!-- Template JS Files -->
+<!-- Template JS Files Starts -->
 <script src="js/jquery-3.5.0.min.js"></script>
 <script src="js/styleswitcher.js"></script>
 <script src="js/preloader.min.js"></script>
@@ -221,7 +228,35 @@
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/custom.js"></script>
+<!-- Template JS Files Ends -->
 
+<!-- Messenger Chat plugin Code Starts -->
+    <div id="fb-root"></div>
+
+    
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "105236641028081");
+      chatbox.setAttribute("attribution", "biz_inbox");
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v10.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+	<!-- Chat plugin code Ends -->
 </body>
 
 
