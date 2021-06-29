@@ -4,9 +4,9 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Blog -  Personal Portfolio</title>
+    <title>Blog - Personal Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link rel="icon" href="img/favicon-n.png" type="image/png" sizes="16x16">
     <!-- Template Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700" rel="stylesheet">
@@ -20,7 +20,7 @@
     <link href="css/style.css" rel="stylesheet">
 
     <!-- CSS Skin File -->
-    <link href="css/skins/green.css" rel="stylesheet">
+    <link href="css/skins/yellow.css" rel="stylesheet">
 
     <!-- Live Style Switcher - demo only -->
     <link rel="alternate stylesheet" type="text/css" title="blue" href="css/skins/blue.css" />
@@ -39,11 +39,11 @@
     <script src="js/modernizr.custom.js"></script>
 </head>
 
-<body class="blog-post light">
+<body class="blog-post">
 <!-- Live Style Switcher Starts - demo only -->
 <div id="switcher" class="">
     <div class="content-switcher">
-        <h4>STYLE SWITCHER</h4>
+        <h4>Change Colors</h4>
         <ul>
             <li>
                 <a href="#" onclick="setActiveStyleSheet('purple');" title="purple" class="color"><img src="img/styleswitcher/purple.png" alt="purple"/></a>
@@ -77,7 +77,7 @@
             </li>
         </ul>
 
-        <div id="hideSwitcher">&times;</div>
+       <div id="hideSwitcher">&times;</div>
     </div>
 </div>
 <div id="showSwitcher" class="styleSecondColor"><i class="fa fa-cog fa-spin"></i></div>
@@ -87,6 +87,12 @@
     <!-- Fixed Navigation Starts -->
     <ul class="icon-menu d-none d-lg-block revealator-slideup revealator-once revealator-delay1">
         <li class="icon-box">
+            <i class="fa fa-cog"></i>
+            <a href="light-index.html">
+                <h2>Light</h2>
+            </a>
+        </li>
+		<li class="icon-box">
             <i class="fa fa-home"></i>
             <a href="index.html">
                 <h2>Home</h2>
@@ -94,25 +100,25 @@
         </li>
         <li class="icon-box">
             <i class="fa fa-user"></i>
-            <a href="about.html">
+            <a href="dark-about.html">
                 <h2>About</h2>
             </a>
         </li>
         <li class="icon-box">
             <i class="fa fa-briefcase"></i>
-            <a href="portfolio.html">
+            <a href="dark-portfolio.html">
                 <h2>Portfolio</h2>
             </a>
         </li>
         <li class="icon-box">
             <i class="fa fa-envelope-open"></i>
-            <a href="contact.html">
+            <a href="dark-contact.html">
                 <h2>Contact</h2>
             </a>
         </li>
         <li class="icon-box active">
             <i class="fa fa-comments"></i>
-            <a href="blog.html">
+            <a href="dark-blog.html">
                 <h2>Blog</h2>
             </a>
         </li>
@@ -126,11 +132,12 @@
             <span></span>
             <span></span>
             <ul class="list-unstyled" id="menu">
+				<li><a href="light-index.html"><i class="fa fa-cog"></i><span>Light</span></a></li>
                 <li><a href="index.html"><i class="fa fa-home"></i><span>Home</span></a></li>
-                <li><a href="about.html"><i class="fa fa-user"></i><span>About</span></a></li>
-                <li><a href="portfolio.html"><i class="fa fa-folder-open"></i><span>Portfolio</span></a></li>
-                <li><a href="contact.html"><i class="fa fa-envelope-open"></i><span>Contact</span></a></li>
-                <li class="active"><a href="blog.html"><i class="fa fa-comments"></i><span>Blog</span></a></li>
+                <li><a href="dark-about.html"><i class="fa fa-user"></i><span>About</span></a></li>
+                <li><a href="dark-portfolio.html"><i class="fa fa-folder-open"></i><span>Portfolio</span></a></li>
+                <li><a href="dark-contact.html"><i class="fa fa-envelope-open"></i><span>Contact</span></a></li>
+                <li class="active"><a href="dark-blog.html"><i class="fa fa-comments"></i><span>Blog</span></a></li>
             </ul>
         </div>
     </nav>
@@ -152,13 +159,15 @@
                 <!-- Meta Starts -->
                 <div class="meta open-sans-font">
                     <span><i class="fa fa-user"></i>নাঈম হোসেন</span>
-                    <span class="date"><i class="fa fa-calendar"></i>প্রকাশিত: সোমবার, ২৮ জুন, ২০২১</span>
-                    <span><i class="fa fa-tags"></i>আইটি </span>
+                    <span class="date"><i class="fa fa-calendar"></i>প্রকাশিত: সোমবার, ২৮ জুন, ২০২১ </span>
+                    <span><i class="fa fa-tags"></i>ভালোবাসা </span>
                 </div>
                 <!-- Meta Ends -->
                 <!-- Article Content Starts -->
-                <h1 class="text-uppercase text-capitalize">“স্কুল ৩৬০” পেল বেসিস ন্যাশনাল আইসিটি অ্যাওয়ার্ড</h1>
-                <img src="img/blog/blog-post-1.JPG" class="img-fluid" alt="Blog image"/>
+                <h1 class="text-uppercase text-capitalize">মিস ইউ ❤ আমি তোমাকে ভালবেসে ফেলেছি।</h1>
+                <video width="990" height="auto" id="video" class="responsive-video" controls poster="img/blog/blog-post-5.jpg">
+                            <source src="video/miss-u-love.mp4" type="video/mp4">
+                        </video>
                 <div class="blog-excerpt open-sans-font pb-5">
                     <p align="justify">২০১৫ সালে ‘স্কুল ৩৬০’ সাজ্জাদুর রহমানের হাত ধরে যাত্রা শুরু হয়। ২০১৫ সালে বাংলাদেশের শিক্ষা খাতে নতুন টেকনোলজির তেমন একটা প্রভাব দেখা যায়নি। কিন্তু তবুও সবার নতুনত্ব টেকনোলজির চাহিদা ছিল। ঠিক তেমনি, শিক্ষা প্রতিষ্ঠানের প্রধান শিক্ষকরা তাদের প্রতিষ্ঠানে চেয়েছিল টেকনোলজির ছোঁয়া। আর এই সুবাদেই, ‘স্কুল ৩৬০’ কে আর পিছনে তাকানো লাগেনি।</p>
 					
