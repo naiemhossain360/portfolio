@@ -3,7 +3,7 @@ var a=prompt("User Name");
  var b=prompt("Password");
   	if(a== "admin" && b=="4321")
   	{
-  	    window.location.href="love-story-miss-u-love.html";
+  	    window.location.href="love-at-first-sight-miss-u-love.html";
   	}
   	else
   	{
