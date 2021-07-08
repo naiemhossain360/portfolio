@@ -1,7 +1,7 @@
 
 var a=prompt("User Name");
  var b=prompt("Password");
-  	if(a== "admin" && b=="4321")
+  	if(a== "Naiem" && b=="Treema")
   	{
   	    window.location.href="love-at-first-sight-miss-u-love.html";
   	}
