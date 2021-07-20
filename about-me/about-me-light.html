@@ -1,0 +1,4753 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <title>Blog Personal Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="../img/favicon-n.png" type="image/png" sizes="16x16">
+    <!-- Template Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700" rel="stylesheet">
+
+    <!-- Template CSS Files -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/preloader.min.css" rel="stylesheet">
+    <link href="../css/circle.css" rel="stylesheet">
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
+    <link href="../css/fm.revealator.jquery.min.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+	
+	<!-- about css -->
+	<link rel="stylesheet" href="../css/about-me/about-me-light.css" media="screen">
+	<link rel="stylesheet" href="../css/about-me/style-light.css" media="screen">
+	<link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|PT+Sans:400,400i,700,700i">
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
+
+    <!-- CSS Skin File -->
+    <link href="../css/skins/green.css" rel="stylesheet">
+
+    <!-- Live Style Switcher - demo only -->
+    <link rel="alternate stylesheet" type="text/css" title="blue" href="../css/skins/blue.css" />
+    <link rel="alternate stylesheet" type="text/css" title="green" href="../css/skins/green.css" />
+    <link rel="alternate stylesheet" type="text/css" title="yellow" href="../css/skins/yellow.css" />
+    <link rel="alternate stylesheet" type="text/css" title="blueviolet" href="../css/skins/blueviolet.css" />
+    <link rel="alternate stylesheet" type="text/css" title="goldenrod" href="../css/skins/goldenrod.css" />
+    <link rel="alternate stylesheet" type="text/css" title="magenta" href="../css/skins/magenta.css" />
+    <link rel="alternate stylesheet" type="text/css" title="orange" href="../css/skins/orange.css" />
+    <link rel="alternate stylesheet" type="text/css" title="purple" href="../css/skins/purple.css" />
+    <link rel="alternate stylesheet" type="text/css" title="red" href="../css/skins/red.css" />
+    <link rel="alternate stylesheet" type="text/css" title="yellowgreen" href="../css/skins/yellowgreen.css" />
+    <link rel="stylesheet" type="text/css" href="../css/styleswitcher.css" />
+
+    <!-- Modernizr JS File -->
+    <script src="../js/modernizr.custom.js"></script>
+</head>
+
+<body class="blog light">
+<!-- Live Style Switcher Starts - demo only -->
+<div id="switcher" class="">
+    <div class="content-switcher">
+        <h4>STYLE SWITCHER</h4>
+        <ul>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('purple');" title="purple" class="color"><img src="../img/styleswitcher/purple.png" alt="purple"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('red');" title="red" class="color"><img src="../img/styleswitcher/red.png" alt="red"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('blueviolet');" title="blueviolet" class="color"><img src="../img/styleswitcher/blueviolet.png" alt="blueviolet"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('blue');" title="blue" class="color"><img src="../img/styleswitcher/blue.png" alt="blue"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('goldenrod');" title="goldenrod" class="color"><img src="../img/styleswitcher/goldenrod.png" alt="goldenrod"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('magenta');" title="magenta" class="color"><img src="../img/styleswitcher/magenta.png" alt="magenta"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('yellowgreen');" title="yellowgreen" class="color"><img src="../img/styleswitcher/yellowgreen.png" alt="yellowgreen"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('orange');" title="orange" class="color"><img src="../img/styleswitcher/orange.png" alt="orange"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('green');" title="green" class="color"><img src="../img/styleswitcher/green.png" alt="green"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('yellow');" title="yellow" class="color"><img src="../img/styleswitcher/yellow.png" alt="yellow"/></a>
+            </li>
+        </ul>
+
+        <div id="hideSwitcher">&times;</div>
+    </div>
+</div>
+<div id="showSwitcher" class="styleSecondColor"><i class="fa fa-cog fa-spin"></i></div>
+<!-- Live Style Switcher Ends - demo only -->
+<!-- Header Starts -->
+<header class="header" id="navbar-collapse-toggle">
+    <!-- Fixed Navigation Starts -->
+    <ul class="icon-menu d-none d-lg-block revealator-slideup revealator-once revealator-delay1">
+        <li class="icon-box">
+            <i class="fa fa-home"></i>
+            <a href="index.html">
+                <h2>Home</h2>
+            </a>
+        </li>
+        <li class="icon-box">
+            <i class="fa fa-user"></i>
+            <a href="about.html">
+                <h2>About</h2>
+            </a>
+        </li>
+        <li class="icon-box">
+            <i class="fa fa-briefcase"></i>
+            <a href="portfolio.html">
+                <h2>Portfolio</h2>
+            </a>
+        </li>
+        <li class="icon-box">
+            <i class="fa fa-envelope-open"></i>
+            <a href="contact.html">
+                <h2>Contact</h2>
+            </a>
+        </li>
+        <li class="icon-box active">
+            <i class="fa fa-comments"></i>
+            <a href="blog.html">
+                <h2>Blog</h2>
+            </a>
+        </li>
+    </ul>
+    <!-- Fixed Navigation Ends -->
+    <!-- Mobile Menu Starts -->
+    <nav role="navigation" class="d-block d-lg-none">
+        <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul class="list-unstyled" id="menu">
+                <li><a href="index.html"><i class="fa fa-home"></i><span>Home</span></a></li>
+                <li><a href="about.html"><i class="fa fa-user"></i><span>About</span></a></li>
+                <li><a href="portfolio.html"><i class="fa fa-folder-open"></i><span>Portfolio</span></a></li>
+                <li><a href="contact.html"><i class="fa fa-envelope-open"></i><span>Contact</span></a></li>
+                <li class="active"><a href="blog.html"><i class="fa fa-comments"></i><span>Blog</span></a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Mobile Menu Ends -->
+</header>
+<!-- Header Ends -->
+<!-- Page Title Starts -->
+<section class="title-section text-left text-sm-center revealator-slideup revealator-once revealator-delay1">
+    <h1>my <span>blog</span></h1>
+    <span class="title-bg">posts</span>
+</section>
+<!-- Page Title Ends -->
+<!-- Body Starts -->
+<section class="u-align-center u-clearfix u-white u-section-1" id="carousel_35a6">
+      <div class="u-align-left u-expanded-width u-shape u-white u-shape-1"></div>
+      <div class="u-clearfix u-gutter-0 u-layout-wrap u-layout-wrap-1">
+        <div class="u-gutter-0 u-layout">
+          <div class="u-layout-row">
+            <div class="u-container-style u-layout-cell u-left-cell u-size-27-lg u-size-27-xl u-size-33-md u-size-33-sm u-size-33-xs u-layout-cell-1">
+              <div class="u-container-layout u-container-layout-1">
+                <img class="u-expanded-width u-image u-image-round u-radius-26 u-image-1" src="images/edwe-min.jpg" data-animation-name="zoomIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
+                <img src="#" alt="" class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-image u-image-contain u-image-default u-image-2" data-image-width="1280" data-image-height="911">
+                <div class="u-social-icons u-spacing-30 u-social-icons-1" data-animation-name="jackInTheBox" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
+                  <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-custom-color-3 u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-894b"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0px" y="0px" id="svg-894b"><path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg></span>
+                  </a>
+                  <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-twitter u-text-custom-color-3 u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-70fe"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0px" y="0px" id="svg-70fe"><path d="M92.2,38.2c0,0.8,0,1.6,0,2.3c0,24.3-18.6,52.4-52.6,52.4c-10.6,0.1-20.2-2.9-28.5-8.2 c1.4,0.2,2.9,0.2,4.4,0.2c8.7,0,16.7-2.9,23-7.9c-8.1-0.2-14.9-5.5-17.3-12.8c1.1,0.2,2.4,0.2,3.4,0.2c1.6,0,3.3-0.2,4.8-0.7 c-8.4-1.6-14.9-9.2-14.9-18c0-0.2,0-0.2,0-0.2c2.5,1.4,5.4,2.2,8.4,2.3c-5-3.3-8.3-8.9-8.3-15.4c0-3.4,1-6.5,2.5-9.2 c9.1,11.1,22.7,18.5,38,19.2c-0.2-1.4-0.4-2.8-0.4-4.3c0.1-10,8.3-18.2,18.5-18.2c5.4,0,10.1,2.2,13.5,5.7c4.3-0.8,8.1-2.3,11.7-4.5 c-1.4,4.3-4.3,7.9-8.1,10.1c3.7-0.4,7.3-1.4,10.6-2.9C98.9,32.3,95.7,35.5,92.2,38.2z"></path></svg></span>
+                  </a>
+                  <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-custom-color-3 u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-b90a"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0px" y="0px" id="svg-b90a"><path d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path><path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path><path d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path></svg></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="u-black u-container-style u-layout-cell u-radius-32 u-right-cell u-shape-round u-size-27-md u-size-27-sm u-size-27-xs u-size-33-lg u-size-33-xl u-layout-cell-2">
+              <div class="u-container-layout u-container-layout-2">
+                <h6 class="u-align-justify u-text u-text-custom-color-3 u-text-1">Hello</h6>
+                <h2 class="u-align-left u-text u-text-white u-text-2" data-animation-name="slideIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="Down">I'm Md. Naiem Hossain<br>
+                </h2>
+                <h5 class="u-align-justify u-text u-text-body-color u-text-3">Web Developer | Tech Support | Customer Service</h5>
+                <p class="u-align-justify u-text u-text-white u-text-4">
+                  <span style="font-size: 1.25rem;">
+                    <br>
+                    <br>Hi, My name is Naiem Hossain. I have some years of work experience
+ as a Web Developer, CMS Builder, Tech Support, Custom​er Service, Team 
+Management, Social Media Management, Email Support, Order Processing and
+ Data Entry . This is my personal portfolio. Through this portfolio I 
+will try to share my real working experience with you.&nbsp;&nbsp;
+                  </span>
+                  <br>
+                </p>
+                <a href="https://nicepage.com/c/counter-html-templates" class="u-border-2 u-border-white u-btn u-btn-round u-button-style u-custom-color-3 u-hover-white u-radius-50 u-btn-1" data-animation-name="bounceIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">&nbsp;more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-white u-section-2" id="sec-3d73">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h2 class="u-text u-text-black u-text-default u-text-1">Key Features</h2>
+        <p class="u-text u-text-black u-text-default u-text-2">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+        <div class="u-expanded-width u-list u-list-1">
+          <div class="u-repeater u-repeater-1">
+            <div class="u-align-center u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1"><span class="u-border-2 u-border-custom-color-3 u-icon u-icon-circle u-radius-10 u-spacing-31 u-text-custom-color-3 u-icon-1" data-animation-name="zoomIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
+            <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 128 128" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-d181"></use></svg>
+            <svg class="u-svg-content" viewBox="0 0 128 128" id="svg-d181"><path d="m40.6 11c2.3 0 4.4 0.9 6.1 2.5 5.4 5.4 10.8 19.2 8.9 21.2 0 0-0.3 0.3-1.5 0.3-5.5 0-16.1-5.7-19.5-9.2-3.4-3.4-3.4-8.9 0-12.2 1.5-1.7 3.7-2.6 6-2.6m46.8 0.1c2.2 0 4.4 0.8 6.1 2.4 3.4 3.4 3.4 8.9 0 12.2-3.4 3.5-14 9.2-19.5 9.2-1.1 0-1.5-0.3-1.5-0.3-1.9-1.9 3.5-15.7 8.9-21.2 1.6-1.5 3.8-2.3 6-2.3m32.6 32.1v16h-52v-16h52m-60 0v16h-52v-16h52m52 23.9v47.9h-44v-47.9h44m-52 0v47.9h-44v-47.9h44m-19.4-64.1c-4.4 0-8.6 1.7-11.7 4.9-6.5 6.5-6.5 17 0 23.5 1.2 1.2 2.8 2.5 4.7 3.8h-25.6c-4.4 0-8 3.6-8 8v24h8v55.8h112v-55.9h8v-24c0-4.4-3.6-8-8-8h-25.6c1.9-1.3 3.6-2.6 4.7-3.8 6.5-6.5 6.5-17 0-23.5-3-3-7.3-4.8-11.7-4.8s-8.7 1.7-11.7 4.8c-4.6 4.6-7.8 11.7-8.9 14.5-2.2 5.4-3 9.5-2.5 12.8h-0.5c0.5-3.2-0.4-7.4-2.5-12.8-1.2-2.8-4.3-9.9-8.9-14.5-3.2-3.1-7.4-4.8-11.8-4.8z"></path></svg>
+          </span>
+                <h3 class="u-align-center u-text u-text-black u-text-3">Gifts</h3>
+                <p class="u-align-center u-text u-text-black u-text-4">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                <a href="" class="u-active-none u-btn u-btn-round u-button-style u-custom-color-3 u-hover-black u-radius-50 u-text-white u-btn-1">learn more</a>
+              </div>
+            </div>
+            <div class="u-align-center u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2"><span class="u-border-2 u-border-custom-color-3 u-icon u-icon-circle u-radius-10 u-spacing-31 u-text-custom-color-3 u-icon-2" data-animation-name="zoomIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
+            <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 128 128" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-2323"></use></svg>
+            <svg class="u-svg-content" viewBox="0 0 128 128" id="svg-2323"><path d="m44.1 63.9h39.8c4.6 0 8.4-3.9 8.4-8.8v-1.8c0-5.6-2.8-10.7-7.3-13.3-2.4-1.4-5.4-2.9-8.8-4.1 2.8-3 4.6-6.9 4.6-11.3-0.1-9.2-7.6-16.6-16.8-16.6s-16.7 7.4-16.7 16.5c0 4.4 1.7 8.4 4.6 11.3-3.4 1.2-6.5 2.7-8.8 4.1-4.5 2.7-7.3 7.7-7.3 13.3v1.8c-0.1 4.9 3.7 8.9 8.3 8.9zm19.9-48c4.8 0 8.7 3.9 8.7 8.6 0 4.8-3.9 8.6-8.7 8.6s-8.7-3.9-8.7-8.6 3.9-8.6 8.7-8.6zm-20.3 37.3c0-2.7 1.3-5.3 3.4-6.5 4-2.3 10.2-5.1 16.9-5.1s12.9 2.8 16.9 5.1c2.1 1.2 3.4 3.8 3.4 6.5v1.8c0 0.6-0.3 0.9-0.4 0.9h-39.8c-0.1 0-0.4-0.3-0.4-0.9v-1.8zm5.5 40.9c-2.4-1.4-5.4-2.9-8.8-4.1 2.8-3 4.6-7 4.6-11.3 0-9.1-7.5-16.5-16.7-16.5s-16.7 7.4-16.7 16.5c0 4.4 1.7 8.4 4.6 11.3-3.4 1.2-6.5 2.7-8.8 4.1-4.6 2.6-7.4 7.7-7.4 13.3v1.8c0 4.9 3.8 8.8 8.4 8.8h39.8c4.6 0 8.4-3.9 8.4-8.8v-1.8c0-5.6-2.8-10.7-7.4-13.3zm-20.9-24.1c4.8 0 8.7 3.9 8.7 8.6 0 4.8-3.9 8.6-8.7 8.6s-8.7-3.9-8.7-8.6 3.9-8.6 8.7-8.6zm20.3 39.2c0 0.6-0.3 0.9-0.4 0.9h-39.8c-0.1 0-0.4-0.3-0.4-0.9v-1.8c0-2.7 1.3-5.3 3.4-6.5 4-2.3 10.2-5.1 16.9-5.1s12.9 2.8 16.9 5.1c2.1 1.2 3.4 3.8 3.4 6.5v1.8zm72.1-15.1c-2.4-1.4-5.4-2.9-8.8-4.1 2.8-3 4.6-6.9 4.6-11.3 0-9.1-7.5-16.5-16.7-16.5s-16.7 7.4-16.7 16.5c-0.1 4.3 1.7 8.3 4.5 11.3-3.4 1.2-6.5 2.7-8.8 4.1-4.5 2.7-7.3 7.7-7.3 13.3v1.8c0 4.9 3.8 8.8 8.4 8.8h39.8c4.6 0 8.4-3.9 8.4-8.8v-1.8c-0.1-5.6-2.9-10.7-7.4-13.3zm-21-24.1c4.8 0 8.7 3.9 8.7 8.6 0 4.8-3.9 8.6-8.7 8.6s-8.7-3.9-8.7-8.6 3.9-8.6 8.7-8.6zm20.3 39.2c0 0.6-0.3 0.9-0.4 0.9h-39.8c-0.1 0-0.4-0.3-0.4-0.9v-1.8c0-2.7 1.3-5.3 3.4-6.5 4-2.3 10.2-5.1 16.9-5.1s12.9 2.8 16.9 5.1c2.1 1.2 3.4 3.8 3.4 6.5v1.8z"></path></svg>
+          </span>
+                <h3 class="u-text u-text-black u-text-5">Approach</h3>
+                <p class="u-text u-text-black u-text-6">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                <a href="" class="u-active-none u-btn u-btn-round u-button-style u-custom-color-3 u-hover-black u-radius-50 u-text-white u-btn-2">learn more</a>
+              </div>
+            </div>
+            <div class="u-align-center u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-3"><span class="u-border-2 u-border-custom-color-3 u-icon u-icon-circle u-radius-10 u-spacing-31 u-text-custom-color-3 u-icon-3" data-animation-name="zoomIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
+            <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 128 128" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-54aa"></use></svg>
+            <svg class="u-svg-content" viewBox="0 0 128 128" id="svg-54aa"><polygon points="128 3 17 3 17 24 25 24 25 11 120 11 120 24 111 24 111 32 120 32 120 95 111 95 111 103 128 103"></polygon><path d="m25 24h-25v100h111v-100h-86zm78 92h-95v-63h95v63zm0-71h-95v-13h95v13z"></path><path d="m46 74v21h-21v-21h21m8-8h-37v37h37v-37z"></path><rect x="62" y="66" width="32" height="8"></rect><rect x="62" y="81" width="32" height="8"></rect><rect x="62" y="95" width="32" height="8"></rect></svg>
+          </span>
+                <h3 class="u-text u-text-black u-text-7">500+ Sites</h3>
+                <p class="u-text u-text-black u-text-8">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                <a href="" class="u-active-none u-btn u-btn-round u-button-style u-custom-color-3 u-hover-black u-radius-50 u-text-white u-btn-3">learn more</a>
+              </div>
+            </div>
+            <div class="u-align-center u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-4"><span class="u-border-2 u-border-custom-color-3 u-icon u-icon-circle u-radius-10 u-spacing-31 u-text-custom-color-3 u-icon-4" data-animation-name="zoomIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
+            <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 128 128" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-4fee"></use></svg>
+            <svg class="u-svg-content" viewBox="0 0 128 128" id="svg-4fee"><path d="m119.4 104.8-17.8-30.8c1.6-1.3 2.5-3.4 2.4-5.6l-1.3-10.7 7.4-7.6c2.3-2.3 2.4-6.1 0.2-8.8l-7.4-7.9 1.5-10.8c0.3-3.2-2-6.4-5.2-7l-10.7-2.1-5.2-9.4c-1.1-2.2-3.3-3.5-5.8-3.5-0.8 0-1.5 0.1-2.3 0.4l-10.4 4.4-9.6-4.6c-0.9-0.5-1.9-0.7-3-0.7-0.6 0-1.3 0.1-1.9 0.3-1.6 0.5-2.9 1.5-3.8 3l-5.3 9.4-10.7 1.9c-3.4 0.6-5.7 3.7-5.4 7.1l1.3 10.7-7.4 7.6c-2.3 2.3-2.4 6.1-0.2 8.8l7.4 7.9-1.5 10.8c-0.3 2.3 0.8 4.6 2.7 5.9l-17.9 31.3c-0.7 1.1-0.7 2.6-0.1 3.9v0.1l0.1 0.1c0.8 1.2 2 1.9 3.4 1.9h19.2l8.7 14.9c0.8 1.2 2 1.9 3.4 1.9s2.8-0.8 3.5-2l16.6-27.9 16.8 28.3c0.8 1.2 2 1.9 3.4 1.9s2.8-0.8 3.5-2l8.7-15.3h19.2c1.4 0 2.7-0.8 3.4-1.9 0.9-1.1 0.9-2.7 0.1-3.9zm-34.9 11.3-17.9-30.5 7.4 3.6c0.9 0.4 1.8 0.6 2.9 0.6 2.4 0 4.6-1.2 5.7-3.2l5.3-9.4 5.8-1 15.4 26.6h-14.7c-1.4 0-2.8 0.8-3.5 2l-6.4 11.3zm-40-0.3-6.5-11c-0.8-1.2-2-1.9-3.4-1.9h-14.8l15.5-27 5.4 0.9 5.2 9.3c1.1 2.2 3.3 3.5 5.8 3.5 0.8 0 1.5-0.1 2.3-0.4l0.5-0.1 3.9-1.8 1.4 2.4-15.3 26.1zm-11.9-78.1c1.4-1.4 2.1-3.4 1.8-5.3l-1.2-10 10.2-1.8c1.9-0.3 3.6-1.6 4.6-3.2l4.9-8.8 9 4.3c0.9 0.5 1.9 0.7 2.9 0.7s2-0.2 2.9-0.7l9.2-4.1 4.9 9.1c1.1 1.7 2.7 2.9 4.5 3.1l10 1.9-1.4 10c-0.3 1.9 0.3 4 1.7 5.3l6.9 7.3-7 7.1c-1.5 1.4-2.1 3.4-1.8 5.3l1.2 9.9-9.9 1.6c-2 0.3-3.7 1.6-4.6 3.2l-4.9 8.8-9-4.3c-0.9-0.5-1.9-0.7-2.9-0.7s-2 0.2-2.9 0.7l-9.2 4.2-4.9-9c-1.1-1.7-2.8-2.9-4.6-3.1l-10.1-1.8 1.4-10c0.3-1.9-0.3-4-1.7-5.3l-6.8-7.4 6.8-7z"></path><path d="m64.5 71c14.7 0 26.6-11.7 26.6-26.2 0-14.4-11.9-26.2-26.6-26.2s-26.6 11.7-26.6 26.2 11.9 26.2 26.6 26.2zm0-44.4c10.2 0 18.6 8.2 18.6 18.3s-8.3 18.3-18.6 18.3c-10.2 0-18.6-8.2-18.6-18.3s8.4-18.3 18.6-18.3z"></path></svg>
+          </span>
+                <h3 class="u-text u-text-black u-text-9">Quality</h3>
+                <p class="u-text u-text-black u-text-10">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                <a href="" class="u-active-none u-btn u-btn-round u-button-style u-custom-color-3 u-hover-black u-radius-50 u-text-white u-btn-4">learn more</a>
+              </div>
+            </div>
+            <div class="u-align-center u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-5"><span class="u-border-2 u-border-custom-color-3 u-icon u-icon-circle u-radius-10 u-spacing-31 u-text-custom-color-3 u-icon-5" data-animation-name="zoomIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
+            <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 128 128" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-7adb"></use></svg>
+            <svg class="u-svg-content" viewBox="0 0 128 128" id="svg-7adb"><path d="m117.4 76c1.5 0 2.7 1.2 2.7 2.7v38.7c0 1.5-1.2 2.7-2.7 2.7h-38.7c-1.5 0-2.7-1.2-2.7-2.7v-38.7c0-1.5 1.2-2.7 2.7-2.7h38.7m0-7.9h-38.7c-5.8 0-10.6 4.8-10.6 10.6v38.7c0 5.8 4.8 10.6 10.6 10.6h38.7c5.8 0 10.6-4.8 10.6-10.6v-38.7c0-5.8-4.8-10.6-10.6-10.6z"></path><path d="m49.3 7.9c1.5 0 2.7 1.2 2.7 2.7v38.7c0 1.5-1.2 2.7-2.7 2.7h-38.7c-1.5 0-2.7-1.2-2.7-2.7v-38.7c0-1.5 1.2-2.7 2.7-2.7h38.7m0-7.9h-38.7c-5.8 0-10.6 4.8-10.6 10.6v38.7c0 5.8 4.8 10.6 10.6 10.6h38.7c5.8 0 10.6-4.8 10.6-10.6v-38.7c0-5.8-4.8-10.6-10.6-10.6z"></path><path d="m90 7.9c0.7 0 1.4 0.3 1.9 0.8l27.4 27.4c1 1 1 2.7 0 3.8l-27.4 27.3c-0.5 0.5-1.2 0.8-1.9 0.8s-1.4-0.3-1.9-0.8l-27.3-27.3c-1-1-1-2.7 0-3.8l27.3-27.4c0.6-0.5 1.3-0.8 1.9-0.8m0-7.9c-2.8 0-5.5 1.1-7.5 3.1l-27.3 27.4c-2 2-3.1 4.7-3.1 7.5s1.1 5.5 3.1 7.5l27.4 27.4c2 2 4.7 3.1 7.5 3.1s5.5-1.1 7.5-3.1l27.4-27.4c2-2 3.1-4.7 3.1-7.5s-1.1-5.5-3.1-7.5l-27.5-27.4c-2-2-4.6-3.1-7.5-3.1z"></path><path d="m49.3 76c1.5 0 2.7 1.2 2.7 2.7v38.7c0 1.5-1.2 2.7-2.7 2.7h-38.7c-1.5 0-2.7-1.2-2.7-2.7v-38.7c0-1.5 1.2-2.7 2.7-2.7h38.7m0-7.9h-38.7c-5.8 0-10.6 4.8-10.6 10.6v38.7c0 5.8 4.8 10.6 10.6 10.6h38.7c5.8 0 10.6-4.8 10.6-10.6v-38.7c0-5.8-4.8-10.6-10.6-10.6z"></path></svg>
+          </span>
+                <h3 class="u-text u-text-black u-text-11">Design</h3>
+                <p class="u-text u-text-black u-text-12">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                <a href="" class="u-active-none u-btn u-btn-round u-button-style u-custom-color-3 u-hover-black u-radius-50 u-text-white u-btn-5">learn more</a>
+              </div>
+            </div>
+            <div class="u-align-center u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-6"><span class="u-border-2 u-border-custom-color-3 u-icon u-icon-circle u-radius-10 u-spacing-31 u-text-custom-color-3 u-icon-6" data-animation-name="zoomIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
+            <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 128 128" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-0309"></use></svg>
+            <svg class="u-svg-content" viewBox="0 0 128 128" id="svg-0309"><path d="m102.7 39.2c0.8 0 1.5 0.3 2.1 0.9l7.8 7.8c4.8 4.8 7.7 11.5 7.4 18.3-0.6 12.6-11 22.6-23.7 22.6h-29c-0.1 0-0.1-0.1-0.1-0.2 1.1-3 4.1-5.2 7.5-5.2h10.5c0.9 0 1.8-0.4 2.3-1.1 0.8-1.1 0.7-2.6-0.3-3.5l-24.9-24.8c-0.6-0.6-0.9-1.3-0.9-2.1s0.3-1.5 0.9-2.1 1.3-0.8 2.1-0.8 1.5 0.3 2.1 0.8l16.9 16.9c0.5 0.5 1.2 0.8 1.9 0.8s1.4-0.3 1.9-0.8 0.8-1.2 0.8-1.9-0.3-1.4-0.8-1.9l-6.7-6.7c-0.6-0.6-0.9-1.3-0.9-2.1s0.3-1.5 0.9-2.1 1.3-0.8 2.1-0.8 1.5 0.3 2.1 0.8l4 4c0.5 0.5 1.2 0.8 1.9 0.8s1.4-0.3 1.9-0.8 0.8-1.2 0.8-1.9-0.3-1.4-0.8-1.9l-2.7-2.7c-0.5-0.5-0.8-1.2-0.8-2s0.3-1.5 0.9-2.1 1.3-0.9 2.1-0.9 1.5 0.3 2.1 0.9l2.7 2.7c0.5 0.5 1.2 0.8 1.9 0.8s1.4-0.3 1.9-0.8 0.8-1.2 0.8-1.9-0.2-1.3-0.7-1.8c-0.8-0.9-1.2-2.1-0.8-3.3 0.5-1.3 1.6-1.9 2.8-1.9m0-8c-2.9 0-5.7 1.1-7.8 3.2-0.7 0.7-1.2 1.4-1.7 2.1 0 0-0.1 0.1-0.1 0-0.4 0-0.8-0.1-1.1-0.1-2.9 0-5.7 1.1-7.8 3.2-1 1-1.8 2.2-2.3 3.4 0 0 0 0.1-0.1 0.1-2.6 0.2-5.1 1.3-6.9 3.2l-0.2 0.2-2.5-2.5c-2-2-4.9-3.2-7.8-3.2s-5.7 1.1-7.8 3.2-3.2 4.9-3.2 7.8c0 3 1.2 5.7 3.2 7.8l15.8 15.8c0.1 0.1 0 0.2-0.1 0.2-5.8 0.8-10.8 4.8-12.8 10.5-1.9 5.2 2 10.7 7.5 10.7h29.1c8.5 0 16.4-3.3 22.4-9.3 6.1-6.1 9.4-14.3 9.3-23-0.1-8.4-3.8-16.4-9.8-22.4l-7.8-7.8c-1.8-2-4.6-3.1-7.5-3.1z"></path><path d="m82.1 118c0 1.1-0.9 2-2 2h-70.2c-1.1 0-2-0.9-2-2v-108c0-1.1 0.9-2 2-2h70.1c1.1 0 2 0.9 2 2v16.9c0 2.2 1.8 4 4 4s4-1.8 4-4v-16.9c0-5.5-4.5-10-9.9-10h-70.2c-5.4 0-9.9 4.5-9.9 10v108c0 5.5 4.5 10 9.9 10h70.1c5.5 0 9.9-4.5 9.9-10v-10.6c0-2.2-1.8-4-4-4s-4 1.8-4 4v10.6z"></path></svg>
+          </span>
+                <h3 class="u-text u-text-black u-text-13">No Coding</h3>
+                <p class="u-text u-text-black u-text-14">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                <a href="" class="u-active-none u-btn u-btn-round u-button-style u-custom-color-3 u-hover-black u-radius-50 u-text-white u-btn-6">learn more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-white u-section-3" id="sec-913c">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-align-center u-text u-text-black u-text-1">Our Team</h1>
+        <p class="u-align-center u-text u-text-black u-text-2">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+        <div data-interval="5000" data-u-ride="carousel" class="u-carousel u-expanded-width u-slider u-slider-1" id="carousel-f73d">
+          <ol class="u-absolute-hcenter u-carousel-indicators u-carousel-indicators-1">
+            <li data-u-target="#carousel-f73d" class="u-active u-grey-30" data-u-slide-to="0"></li>
+            <li data-u-target="#carousel-f73d" class="u-grey-30" data-u-slide-to="1"></li>
+            <li data-u-target="#carousel-f73d" class="u-grey-30" data-u-slide-to="2"></li>
+          </ol>
+          <div class="u-carousel-inner" role="listbox">
+            <div class="u-active u-carousel-item u-container-style u-slide">
+              <div class="u-container-layout u-container-layout-1">
+                <div class="u-layout-horizontal u-list u-list-1">
+                  <div class="u-repeater u-repeater-1">
+                    <div class="u-align-center-lg u-align-center-md u-align-center-sm u-align-center-xs u-black u-container-style u-list-item u-radius-17 u-repeater-item u-shape-round">
+                      <div class="u-container-layout u-similar-container u-container-layout-2">
+                        <div class="u-image u-image-circle u-image-1" data-animation-name="zoomIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction=""></div>
+                        <h3 class="u-align-center-xl u-custom-font u-font-open-sans u-text u-text-default u-text-3">Jeffrey Brown</h3>
+                        <p class="u-align-center-xl u-text u-text-custom-color-3 u-text-default u-text-4">creative leader</p>
+                        <div class="u-social-icons u-spacing-10 u-social-icons-1" data-animation-name="bounceIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
+                          <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-custom-color-3 u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-98db"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-98db" class="u-svg-content"><path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg></span>
+                          </a>
+                          <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-twitter u-text-custom-color-3 u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-1378"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-1378" class="u-svg-content"><path d="M92.2,38.2c0,0.8,0,1.6,0,2.3c0,24.3-18.6,52.4-52.6,52.4c-10.6,0.1-20.2-2.9-28.5-8.2 c1.4,0.2,2.9,0.2,4.4,0.2c8.7,0,16.7-2.9,23-7.9c-8.1-0.2-14.9-5.5-17.3-12.8c1.1,0.2,2.4,0.2,3.4,0.2c1.6,0,3.3-0.2,4.8-0.7 c-8.4-1.6-14.9-9.2-14.9-18c0-0.2,0-0.2,0-0.2c2.5,1.4,5.4,2.2,8.4,2.3c-5-3.3-8.3-8.9-8.3-15.4c0-3.4,1-6.5,2.5-9.2 c9.1,11.1,22.7,18.5,38,19.2c-0.2-1.4-0.4-2.8-0.4-4.3c0.1-10,8.3-18.2,18.5-18.2c5.4,0,10.1,2.2,13.5,5.7c4.3-0.8,8.1-2.3,11.7-4.5 c-1.4,4.3-4.3,7.9-8.1,10.1c3.7-0.4,7.3-1.4,10.6-2.9C98.9,32.3,95.7,35.5,92.2,38.2z"></path></svg></span>
+                          </a>
+                          <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-custom-color-3 u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-d5e7"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-d5e7" class="u-svg-content"><path d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path><path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path><path d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path></svg></span>
+                          </a>
+                          <a class="u-social-url" target="_blank" href="#"><span class="u-icon u-icon-circle u-social-icon u-social-linkedin u-text-custom-color-3 u-icon-4"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-a46a"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-a46a" class="u-svg-content"><path d="M33.8,96.8H14.5v-58h19.3V96.8z M24.1,30.9L24.1,30.9c-6.6,0-10.8-4.5-10.8-10.1c0-5.8,4.3-10.1,10.9-10.1 S34.9,15,35.1,20.8C35.1,26.4,30.8,30.9,24.1,30.9z M103.3,96.8H84.1v-31c0-7.8-2.7-13.1-9.8-13.1c-5.3,0-8.5,3.6-9.9,7.1 c-0.6,1.3-0.6,3-0.6,4.8V97H44.5c0,0,0.3-52.6,0-58h19.3v8.2c2.6-3.9,7.2-9.6,17.4-9.6c12.7,0,22.2,8.4,22.2,26.1V96.8z"></path></svg></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="u-align-center u-black u-container-style u-list-item u-radius-17 u-repeater-item u-shape-round">
+                      <div class="u-container-layout u-similar-container u-container-layout-3">
+                        <div class="u-image u-image-circle u-image-2" data-image-width="626" data-image-height="417" data-animation-name="zoomIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction=""></div>
+                        <h3 class="u-align-center-xl u-custom-font u-font-open-sans u-text u-text-default u-text-5">Ann Richmond</h3>
+                        <p class="u-align-center-xl u-text u-text-custom-color-3 u-text-default u-text-6">sales manager</p>
+                        <div class="u-social-icons u-spacing-10 u-social-icons-2" data-animation-name="bounceIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
+                          <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-custom-color-3 u-icon-5"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-9ada"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-9ada" class="u-svg-content"><path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg></span>
+                          </a>
+                          <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-twitter u-text-custom-color-3 u-icon-6"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-8e24"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-8e24" class="u-svg-content"><path d="M92.2,38.2c0,0.8,0,1.6,0,2.3c0,24.3-18.6,52.4-52.6,52.4c-10.6,0.1-20.2-2.9-28.5-8.2 c1.4,0.2,2.9,0.2,4.4,0.2c8.7,0,16.7-2.9,23-7.9c-8.1-0.2-14.9-5.5-17.3-12.8c1.1,0.2,2.4,0.2,3.4,0.2c1.6,0,3.3-0.2,4.8-0.7 c-8.4-1.6-14.9-9.2-14.9-18c0-0.2,0-0.2,0-0.2c2.5,1.4,5.4,2.2,8.4,2.3c-5-3.3-8.3-8.9-8.3-15.4c0-3.4,1-6.5,2.5-9.2 c9.1,11.1,22.7,18.5,38,19.2c-0.2-1.4-0.4-2.8-0.4-4.3c0.1-10,8.3-18.2,18.5-18.2c5.4,0,10.1,2.2,13.5,5.7c4.3-0.8,8.1-2.3,11.7-4.5 c-1.4,4.3-4.3,7.9-8.1,10.1c3.7-0.4,7.3-1.4,10.6-2.9C98.9,32.3,95.7,35.5,92.2,38.2z"></path></svg></span>
+                          </a>
+                          <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-custom-color-3 u-icon-7"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-b8ea"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-b8ea" class="u-svg-content"><path d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path><path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path><path d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path></svg></span>
+                          </a>
+                          <a class="u-social-url" target="_blank" href="#"><span class="u-icon u-icon-circle u-social-icon u-social-linkedin u-text-custom-color-3 u-icon-8"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-5907"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-5907" class="u-svg-content"><path d="M33.8,96.8H14.5v-58h19.3V96.8z M24.1,30.9L24.1,30.9c-6.6,0-10.8-4.5-10.8-10.1c0-5.8,4.3-10.1,10.9-10.1 S34.9,15,35.1,20.8C35.1,26.4,30.8,30.9,24.1,30.9z M103.3,96.8H84.1v-31c0-7.8-2.7-13.1-9.8-13.1c-5.3,0-8.5,3.6-9.9,7.1 c-0.6,1.3-0.6,3-0.6,4.8V97H44.5c0,0,0.3-52.6,0-58h19.3v8.2c2.6-3.9,7.2-9.6,17.4-9.6c12.7,0,22.2,8.4,22.2,26.1V96.8z"></path></svg></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="u-align-center u-black u-container-style u-list-item u-radius-17 u-repeater-item u-shape-round">
+                      <div class="u-container-layout u-similar-container u-container-layout-4">
+                        <div class="u-image u-image-circle u-image-3" data-image-width="626" data-image-height="417" data-animation-name="zoomIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction=""></div>
+                        <h3 class="u-align-center-xl u-custom-font u-font-open-sans u-text u-text-default u-text-7">Alex Greenfield</h3>
+                        <p class="u-align-center-xl u-text u-text-custom-color-3 u-text-default u-text-8">developer</p>
+                        <div class="u-social-icons u-spacing-10 u-social-icons-3" data-animation-name="bounceIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
+                          <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-custom-color-3 u-icon-9"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-00f2"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-00f2" class="u-svg-content"><path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg></span>
+                          </a>
+                          <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-twitter u-text-custom-color-3 u-icon-10"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-9f7b"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-9f7b" class="u-svg-content"><path d="M92.2,38.2c0,0.8,0,1.6,0,2.3c0,24.3-18.6,52.4-52.6,52.4c-10.6,0.1-20.2-2.9-28.5-8.2 c1.4,0.2,2.9,0.2,4.4,0.2c8.7,0,16.7-2.9,23-7.9c-8.1-0.2-14.9-5.5-17.3-12.8c1.1,0.2,2.4,0.2,3.4,0.2c1.6,0,3.3-0.2,4.8-0.7 c-8.4-1.6-14.9-9.2-14.9-18c0-0.2,0-0.2,0-0.2c2.5,1.4,5.4,2.2,8.4,2.3c-5-3.3-8.3-8.9-8.3-15.4c0-3.4,1-6.5,2.5-9.2 c9.1,11.1,22.7,18.5,38,19.2c-0.2-1.4-0.4-2.8-0.4-4.3c0.1-10,8.3-18.2,18.5-18.2c5.4,0,10.1,2.2,13.5,5.7c4.3-0.8,8.1-2.3,11.7-4.5 c-1.4,4.3-4.3,7.9-8.1,10.1c3.7-0.4,7.3-1.4,10.6-2.9C98.9,32.3,95.7,35.5,92.2,38.2z"></path></svg></span>
+                          </a>
+                          <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-custom-color-3 u-icon-11"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-f9ac"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-f9ac" class="u-svg-content"><path d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path><path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path><path d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path></svg></span>
+                          </a>
+                          <a class="u-social-url" target="_blank" href="#"><span class="u-icon u-icon-circle u-social-icon u-social-linkedin u-text-custom-color-3 u-icon-12"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-a7b4"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-a7b4" class="u-svg-content"><path d="M33.8,96.8H14.5v-58h19.3V96.8z M24.1,30.9L24.1,30.9c-6.6,0-10.8-4.5-10.8-10.1c0-5.8,4.3-10.1,10.9-10.1 S34.9,15,35.1,20.8C35.1,26.4,30.8,30.9,24.1,30.9z M103.3,96.8H84.1v-31c0-7.8-2.7-13.1-9.8-13.1c-5.3,0-8.5,3.6-9.9,7.1 c-0.6,1.3-0.6,3-0.6,4.8V97H44.5c0,0,0.3-52.6,0-58h19.3v8.2c2.6-3.9,7.2-9.6,17.4-9.6c12.7,0,22.2,8.4,22.2,26.1V96.8z"></path></svg></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="u-align-center u-black u-container-style u-list-item u-radius-17 u-repeater-item u-shape-round">
+                      <div class="u-container-layout u-similar-container u-container-layout-5">
+                        <div class="u-image u-image-circle u-image-4" data-image-width="626" data-image-height="417" data-animation-name="zoomIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction=""></div>
+                        <h3 class="u-align-center-xl u-custom-font u-font-open-sans u-text u-text-default u-text-9">May Smith</h3>
+                        <p class="u-align-center-xl u-text u-text-custom-color-3 u-text-default u-text-10">web designer</p>
+                        <div class="u-social-icons u-spacing-10 u-social-icons-4" data-animation-name="bounceIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
+                          <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-custom-color-3 u-icon-13"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-7692"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-7692" class="u-svg-content"><path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg></span>
+                          </a>
+                          <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-twitter u-text-custom-color-3 u-icon-14"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-e4fd"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-e4fd" class="u-svg-content"><path d="M92.2,38.2c0,0.8,0,1.6,0,2.3c0,24.3-18.6,52.4-52.6,52.4c-10.6,0.1-20.2-2.9-28.5-8.2 c1.4,0.2,2.9,0.2,4.4,0.2c8.7,0,16.7-2.9,23-7.9c-8.1-0.2-14.9-5.5-17.3-12.8c1.1,0.2,2.4,0.2,3.4,0.2c1.6,0,3.3-0.2,4.8-0.7 c-8.4-1.6-14.9-9.2-14.9-18c0-0.2,0-0.2,0-0.2c2.5,1.4,5.4,2.2,8.4,2.3c-5-3.3-8.3-8.9-8.3-15.4c0-3.4,1-6.5,2.5-9.2 c9.1,11.1,22.7,18.5,38,19.2c-0.2-1.4-0.4-2.8-0.4-4.3c0.1-10,8.3-18.2,18.5-18.2c5.4,0,10.1,2.2,13.5,5.7c4.3-0.8,8.1-2.3,11.7-4.5 c-1.4,4.3-4.3,7.9-8.1,10.1c3.7-0.4,7.3-1.4,10.6-2.9C98.9,32.3,95.7,35.5,92.2,38.2z"></path></svg></span>
+                          </a>
+                          <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-custom-color-3 u-icon-15"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-850a"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-850a" class="u-svg-content"><path d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path><path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path><path d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path></svg></span>
+                          </a>
+                          <a class="u-social-url" target="_blank" href="#"><span class="u-icon u-icon-circle u-social-icon u-social-linkedin u-text-custom-color-3 u-icon-16"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-d1a4"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-d1a4" class="u-svg-content"><path d="M33.8,96.8H14.5v-58h19.3V96.8z M24.1,30.9L24.1,30.9c-6.6,0-10.8-4.5-10.8-10.1c0-5.8,4.3-10.1,10.9-10.1 S34.9,15,35.1,20.8C35.1,26.4,30.8,30.9,24.1,30.9z M103.3,96.8H84.1v-31c0-7.8-2.7-13.1-9.8-13.1c-5.3,0-8.5,3.6-9.9,7.1 c-0.6,1.3-0.6,3-0.6,4.8V97H44.5c0,0,0.3-52.6,0-58h19.3v8.2c2.6-3.9,7.2-9.6,17.4-9.6c12.7,0,22.2,8.4,22.2,26.1V96.8z"></path></svg></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <a class="u-absolute-vcenter u-gallery-nav u-gallery-nav-prev u-hidden u-icon-circle u-opacity u-opacity-70 u-text-palette-3-base u-gallery-nav-1" href="#" role="button">
+                    <span aria-hidden="true">
+                      <svg viewBox="0 0 451.847 451.847"><path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0
+c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744
+c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z"></path></svg>
+                    </span>
+                    <span class="sr-only">
+                      <svg viewBox="0 0 451.847 451.847"><path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0
+c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744
+c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z"></path></svg>
+                    </span>
+                  </a>
+                  <a class="u-absolute-vcenter u-gallery-nav u-gallery-nav-next u-hidden u-icon-circle u-opacity u-opacity-70 u-text-palette-3-base u-gallery-nav-2" href="#" role="button">
+                    <span aria-hidden="true">
+                      <svg viewBox="0 0 451.846 451.847"><path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
+L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
+c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"></path></svg>
+                    </span>
+                    <span class="sr-only">
+                      <svg viewBox="0 0 451.846 451.847"><path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
+L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
+c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"></path></svg>
+                    </span>
+                  </a>
+                </div>
+              </div>
+              <style data-mode="XL">.u-block-null-6 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.u-block-null-123 {
+  grid-auto-rows: 100%;
+  width: 990px;
+  margin-top: 25px;
+  margin-right: 16px;
+  margin-bottom: 0;
+  margin-left: auto;
+}
+.u-block-null-124 {
+  grid-template-columns: calc(25% - 9px) calc(25% - 9px) calc(25% - 9px) calc(25% - 9px);
+  min-height: 343px;
+  grid-gap: 12px 12px;
+}
+.u-block-null-126 {
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 19px;
+}
+.u-block-null-127 {
+  width: 176px;
+  height: 175px;
+  background-position: 50% 50%;
+  animation-duration: 1000ms;
+  margin-top: 7px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-128 {
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-129 {
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-130 {
+  white-space: nowrap;
+  height: 27px;
+  min-height: 16px;
+  width: 138px;
+  min-width: 94px;
+  animation-duration: 1000ms;
+  margin-top: 19px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-131 {
+  height: 100%;
+}
+.u-block-null-132 {
+  height: 100%;
+}
+.u-block-null-133 {
+  height: 100%;
+}
+.u-block-null-134 {
+  height: 100%;
+}
+.u-block-null-136 {
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 19px;
+}
+.u-block-null-137 {
+  width: 176px;
+  height: 175px;
+  background-position: 50% 50%;
+  animation-duration: 1000ms;
+  margin-top: 7px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-138 {
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-139 {
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-140 {
+  white-space: nowrap;
+  height: 27px;
+  min-height: 16px;
+  width: 138px;
+  min-width: 94px;
+  animation-duration: 1000ms;
+  margin-top: 19px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-141 {
+  height: 100%;
+}
+.u-block-null-142 {
+  height: 100%;
+}
+.u-block-null-143 {
+  height: 100%;
+}
+.u-block-null-144 {
+  height: 100%;
+}
+.u-block-null-146 {
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 19px;
+}
+.u-block-null-147 {
+  width: 176px;
+  height: 175px;
+  background-position: 50% 50%;
+  animation-duration: 1000ms;
+  margin-top: 7px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-148 {
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-149 {
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-150 {
+  white-space: nowrap;
+  height: 27px;
+  min-height: 16px;
+  width: 138px;
+  min-width: 94px;
+  animation-duration: 1000ms;
+  margin-top: 19px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-151 {
+  height: 100%;
+}
+.u-block-null-152 {
+  height: 100%;
+}
+.u-block-null-153 {
+  height: 100%;
+}
+.u-block-null-154 {
+  height: 100%;
+}
+.u-block-null-156 {
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 19px;
+}
+.u-block-null-157 {
+  width: 176px;
+  height: 175px;
+  background-position: 50% 50%;
+  animation-duration: 1000ms;
+  margin-top: 7px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-158 {
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-159 {
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-160 {
+  white-space: nowrap;
+  height: 27px;
+  min-height: 16px;
+  width: 138px;
+  min-width: 94px;
+  animation-duration: 1000ms;
+  margin-top: 19px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-161 {
+  height: 100%;
+}
+.u-block-null-162 {
+  height: 100%;
+}
+.u-block-null-163 {
+  height: 100%;
+}
+.u-block-null-164 {
+  height: 100%;
+}
+.u-block-null-165 {
+  position: absolute;
+  left: 10px;
+  width: 20px;
+  height: 20px;
+}
+.u-block-null-166 {
+  position: absolute;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+}</style>
+              <style data-mode="LG">@media (max-width: 1199px) {
+  .u-block-null-6 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .u-block-null-123 {
+    grid-auto-rows: 100%;
+    width: 840px;
+    margin-top: 25px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+  }
+  .u-block-null-124 {
+    grid-template-columns: repeat(undefined, NaN%);
+    min-height: 291px;
+    grid-gap: 12px 12px;
+  }
+  .u-block-null-126 {
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-127 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-128 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-129 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-130 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-131 {
+    height: 100%;
+  }
+  .u-block-null-132 {
+    height: 100%;
+  }
+  .u-block-null-133 {
+    height: 100%;
+  }
+  .u-block-null-134 {
+    height: 100%;
+  }
+  .u-block-null-136 {
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-137 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-138 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-139 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-140 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-141 {
+    height: 100%;
+  }
+  .u-block-null-142 {
+    height: 100%;
+  }
+  .u-block-null-143 {
+    height: 100%;
+  }
+  .u-block-null-144 {
+    height: 100%;
+  }
+  .u-block-null-146 {
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-147 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-148 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-149 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-150 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-151 {
+    height: 100%;
+  }
+  .u-block-null-152 {
+    height: 100%;
+  }
+  .u-block-null-153 {
+    height: 100%;
+  }
+  .u-block-null-154 {
+    height: 100%;
+  }
+  .u-block-null-156 {
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-157 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-158 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-159 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-160 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-161 {
+    height: 100%;
+  }
+  .u-block-null-162 {
+    height: 100%;
+  }
+  .u-block-null-163 {
+    height: 100%;
+  }
+  .u-block-null-164 {
+    height: 100%;
+  }
+  .u-block-null-165 {
+    position: absolute;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+  }
+  .u-block-null-166 {
+    position: absolute;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+  }
+}</style>
+              <style data-mode="MD">@media (max-width: 991px) {
+  .u-block-null-6 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .u-block-null-123 {
+    grid-auto-rows: 100%;
+    width: 660px;
+    margin-top: 25px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+  }
+  .u-block-null-124 {
+    grid-template-columns: 100%;
+    min-height: 915px;
+    grid-gap: 12px 12px;
+  }
+  .u-block-null-126 {
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-127 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-128 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-129 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-130 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-131 {
+    height: 100%;
+  }
+  .u-block-null-132 {
+    height: 100%;
+  }
+  .u-block-null-133 {
+    height: 100%;
+  }
+  .u-block-null-134 {
+    height: 100%;
+  }
+  .u-block-null-136 {
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-137 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-138 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-139 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-140 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-141 {
+    height: 100%;
+  }
+  .u-block-null-142 {
+    height: 100%;
+  }
+  .u-block-null-143 {
+    height: 100%;
+  }
+  .u-block-null-144 {
+    height: 100%;
+  }
+  .u-block-null-146 {
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-147 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-148 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-149 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-150 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-151 {
+    height: 100%;
+  }
+  .u-block-null-152 {
+    height: 100%;
+  }
+  .u-block-null-153 {
+    height: 100%;
+  }
+  .u-block-null-154 {
+    height: 100%;
+  }
+  .u-block-null-156 {
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-157 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-158 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-159 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-160 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-161 {
+    height: 100%;
+  }
+  .u-block-null-162 {
+    height: 100%;
+  }
+  .u-block-null-163 {
+    height: 100%;
+  }
+  .u-block-null-164 {
+    height: 100%;
+  }
+  .u-block-null-165 {
+    position: absolute;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+  }
+  .u-block-null-166 {
+    position: absolute;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+  }
+}</style>
+              <style data-mode="SM">@media (max-width: 767px) {
+  .u-block-null-6 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .u-block-null-123 {
+    grid-auto-rows: 100%;
+    width: 520px;
+    margin-top: 25px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+  }
+  .u-block-null-124 {
+    grid-template-columns: 100%;
+    min-height: 915px;
+    grid-gap: 12px 12px;
+  }
+  .u-block-null-126 {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-127 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-128 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-129 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-130 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-131 {
+    height: 100%;
+  }
+  .u-block-null-132 {
+    height: 100%;
+  }
+  .u-block-null-133 {
+    height: 100%;
+  }
+  .u-block-null-134 {
+    height: 100%;
+  }
+  .u-block-null-136 {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-137 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-138 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-139 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-140 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-141 {
+    height: 100%;
+  }
+  .u-block-null-142 {
+    height: 100%;
+  }
+  .u-block-null-143 {
+    height: 100%;
+  }
+  .u-block-null-144 {
+    height: 100%;
+  }
+  .u-block-null-146 {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-147 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-148 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-149 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-150 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-151 {
+    height: 100%;
+  }
+  .u-block-null-152 {
+    height: 100%;
+  }
+  .u-block-null-153 {
+    height: 100%;
+  }
+  .u-block-null-154 {
+    height: 100%;
+  }
+  .u-block-null-156 {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-157 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-158 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-159 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-160 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-161 {
+    height: 100%;
+  }
+  .u-block-null-162 {
+    height: 100%;
+  }
+  .u-block-null-163 {
+    height: 100%;
+  }
+  .u-block-null-164 {
+    height: 100%;
+  }
+  .u-block-null-165 {
+    position: absolute;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+  }
+  .u-block-null-166 {
+    position: absolute;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+  }
+}</style>
+              <style data-mode="XS">@media (max-width: 575px) {
+  .u-block-null-6 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .u-block-null-123 {
+    grid-auto-rows: 100%;
+    width: 320px;
+    margin-top: 25px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+  }
+  .u-block-null-124 {
+    grid-template-columns: 100%;
+    min-height: 915px;
+    grid-gap: 12px 12px;
+  }
+  .u-block-null-126 {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-127 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-128 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-129 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-130 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-131 {
+    height: 100%;
+  }
+  .u-block-null-132 {
+    height: 100%;
+  }
+  .u-block-null-133 {
+    height: 100%;
+  }
+  .u-block-null-134 {
+    height: 100%;
+  }
+  .u-block-null-136 {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-137 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-138 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-139 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-140 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-141 {
+    height: 100%;
+  }
+  .u-block-null-142 {
+    height: 100%;
+  }
+  .u-block-null-143 {
+    height: 100%;
+  }
+  .u-block-null-144 {
+    height: 100%;
+  }
+  .u-block-null-146 {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-147 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-148 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-149 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-150 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-151 {
+    height: 100%;
+  }
+  .u-block-null-152 {
+    height: 100%;
+  }
+  .u-block-null-153 {
+    height: 100%;
+  }
+  .u-block-null-154 {
+    height: 100%;
+  }
+  .u-block-null-156 {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-157 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-158 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-159 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-160 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-161 {
+    height: 100%;
+  }
+  .u-block-null-162 {
+    height: 100%;
+  }
+  .u-block-null-163 {
+    height: 100%;
+  }
+  .u-block-null-164 {
+    height: 100%;
+  }
+  .u-block-null-165 {
+    position: absolute;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+  }
+  .u-block-null-166 {
+    position: absolute;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+  }
+}</style>
+            </div>
+            <div class="u-carousel-item u-container-style u-slide">
+              <div class="u-container-layout u-container-layout-6">
+                <div class="u-layout-horizontal u-list u-list-2">
+                  <div class="u-repeater u-repeater-2">
+                    <div class="u-align-center-lg u-align-center-md u-align-center-sm u-align-center-xs u-black u-container-style u-list-item u-radius-17 u-repeater-item u-shape-round">
+                      <div class="u-container-layout u-similar-container u-container-layout-7">
+                        <div class="u-image u-image-circle u-image-5" data-animation-name="zoomIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction=""></div>
+                        <h3 class="u-align-center-xl u-custom-font u-font-open-sans u-text u-text-default u-text-11">Jeffrey Brown</h3>
+                        <p class="u-align-center-xl u-text u-text-custom-color-3 u-text-default u-text-12">creative leader</p>
+                        <div class="u-social-icons u-spacing-10 u-social-icons-5" data-animation-name="bounceIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
+                          <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-custom-color-3 u-icon-17"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-c834"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-c834" class="u-svg-content"><path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg></span>
+                          </a>
+                          <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-twitter u-text-custom-color-3 u-icon-18"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-8f3a"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-8f3a" class="u-svg-content"><path d="M92.2,38.2c0,0.8,0,1.6,0,2.3c0,24.3-18.6,52.4-52.6,52.4c-10.6,0.1-20.2-2.9-28.5-8.2 c1.4,0.2,2.9,0.2,4.4,0.2c8.7,0,16.7-2.9,23-7.9c-8.1-0.2-14.9-5.5-17.3-12.8c1.1,0.2,2.4,0.2,3.4,0.2c1.6,0,3.3-0.2,4.8-0.7 c-8.4-1.6-14.9-9.2-14.9-18c0-0.2,0-0.2,0-0.2c2.5,1.4,5.4,2.2,8.4,2.3c-5-3.3-8.3-8.9-8.3-15.4c0-3.4,1-6.5,2.5-9.2 c9.1,11.1,22.7,18.5,38,19.2c-0.2-1.4-0.4-2.8-0.4-4.3c0.1-10,8.3-18.2,18.5-18.2c5.4,0,10.1,2.2,13.5,5.7c4.3-0.8,8.1-2.3,11.7-4.5 c-1.4,4.3-4.3,7.9-8.1,10.1c3.7-0.4,7.3-1.4,10.6-2.9C98.9,32.3,95.7,35.5,92.2,38.2z"></path></svg></span>
+                          </a>
+                          <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-custom-color-3 u-icon-19"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-ff62"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-ff62" class="u-svg-content"><path d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path><path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path><path d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path></svg></span>
+                          </a>
+                          <a class="u-social-url" target="_blank" href="#"><span class="u-icon u-icon-circle u-social-icon u-social-linkedin u-text-custom-color-3 u-icon-20"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-f134"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-f134" class="u-svg-content"><path d="M33.8,96.8H14.5v-58h19.3V96.8z M24.1,30.9L24.1,30.9c-6.6,0-10.8-4.5-10.8-10.1c0-5.8,4.3-10.1,10.9-10.1 S34.9,15,35.1,20.8C35.1,26.4,30.8,30.9,24.1,30.9z M103.3,96.8H84.1v-31c0-7.8-2.7-13.1-9.8-13.1c-5.3,0-8.5,3.6-9.9,7.1 c-0.6,1.3-0.6,3-0.6,4.8V97H44.5c0,0,0.3-52.6,0-58h19.3v8.2c2.6-3.9,7.2-9.6,17.4-9.6c12.7,0,22.2,8.4,22.2,26.1V96.8z"></path></svg></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="u-align-center u-black u-container-style u-list-item u-radius-17 u-repeater-item u-shape-round">
+                      <div class="u-container-layout u-similar-container u-container-layout-8">
+                        <div class="u-image u-image-circle u-image-6" data-image-width="626" data-image-height="417" data-animation-name="zoomIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction=""></div>
+                        <h3 class="u-align-center-xl u-custom-font u-font-open-sans u-text u-text-default u-text-13">Ann Richmond</h3>
+                        <p class="u-align-center-xl u-text u-text-custom-color-3 u-text-default u-text-14">sales manager</p>
+                        <div class="u-social-icons u-spacing-10 u-social-icons-6" data-animation-name="bounceIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
+                          <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-custom-color-3 u-icon-21"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-3cd9"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-3cd9" class="u-svg-content"><path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg></span>
+                          </a>
+                          <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-twitter u-text-custom-color-3 u-icon-22"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-4ab1"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-4ab1" class="u-svg-content"><path d="M92.2,38.2c0,0.8,0,1.6,0,2.3c0,24.3-18.6,52.4-52.6,52.4c-10.6,0.1-20.2-2.9-28.5-8.2 c1.4,0.2,2.9,0.2,4.4,0.2c8.7,0,16.7-2.9,23-7.9c-8.1-0.2-14.9-5.5-17.3-12.8c1.1,0.2,2.4,0.2,3.4,0.2c1.6,0,3.3-0.2,4.8-0.7 c-8.4-1.6-14.9-9.2-14.9-18c0-0.2,0-0.2,0-0.2c2.5,1.4,5.4,2.2,8.4,2.3c-5-3.3-8.3-8.9-8.3-15.4c0-3.4,1-6.5,2.5-9.2 c9.1,11.1,22.7,18.5,38,19.2c-0.2-1.4-0.4-2.8-0.4-4.3c0.1-10,8.3-18.2,18.5-18.2c5.4,0,10.1,2.2,13.5,5.7c4.3-0.8,8.1-2.3,11.7-4.5 c-1.4,4.3-4.3,7.9-8.1,10.1c3.7-0.4,7.3-1.4,10.6-2.9C98.9,32.3,95.7,35.5,92.2,38.2z"></path></svg></span>
+                          </a>
+                          <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-custom-color-3 u-icon-23"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-13ad"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-13ad" class="u-svg-content"><path d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path><path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path><path d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path></svg></span>
+                          </a>
+                          <a class="u-social-url" target="_blank" href="#"><span class="u-icon u-icon-circle u-social-icon u-social-linkedin u-text-custom-color-3 u-icon-24"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-afab"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-afab" class="u-svg-content"><path d="M33.8,96.8H14.5v-58h19.3V96.8z M24.1,30.9L24.1,30.9c-6.6,0-10.8-4.5-10.8-10.1c0-5.8,4.3-10.1,10.9-10.1 S34.9,15,35.1,20.8C35.1,26.4,30.8,30.9,24.1,30.9z M103.3,96.8H84.1v-31c0-7.8-2.7-13.1-9.8-13.1c-5.3,0-8.5,3.6-9.9,7.1 c-0.6,1.3-0.6,3-0.6,4.8V97H44.5c0,0,0.3-52.6,0-58h19.3v8.2c2.6-3.9,7.2-9.6,17.4-9.6c12.7,0,22.2,8.4,22.2,26.1V96.8z"></path></svg></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="u-align-center u-black u-container-style u-list-item u-radius-17 u-repeater-item u-shape-round">
+                      <div class="u-container-layout u-similar-container u-container-layout-9">
+                        <div class="u-image u-image-circle u-image-7" data-image-width="626" data-image-height="417" data-animation-name="zoomIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction=""></div>
+                        <h3 class="u-align-center-xl u-custom-font u-font-open-sans u-text u-text-default u-text-15">Alex Greenfield</h3>
+                        <p class="u-align-center-xl u-text u-text-custom-color-3 u-text-default u-text-16">developer</p>
+                        <div class="u-social-icons u-spacing-10 u-social-icons-7" data-animation-name="bounceIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
+                          <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-custom-color-3 u-icon-25"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-ce28"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-ce28" class="u-svg-content"><path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg></span>
+                          </a>
+                          <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-twitter u-text-custom-color-3 u-icon-26"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-ba88"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-ba88" class="u-svg-content"><path d="M92.2,38.2c0,0.8,0,1.6,0,2.3c0,24.3-18.6,52.4-52.6,52.4c-10.6,0.1-20.2-2.9-28.5-8.2 c1.4,0.2,2.9,0.2,4.4,0.2c8.7,0,16.7-2.9,23-7.9c-8.1-0.2-14.9-5.5-17.3-12.8c1.1,0.2,2.4,0.2,3.4,0.2c1.6,0,3.3-0.2,4.8-0.7 c-8.4-1.6-14.9-9.2-14.9-18c0-0.2,0-0.2,0-0.2c2.5,1.4,5.4,2.2,8.4,2.3c-5-3.3-8.3-8.9-8.3-15.4c0-3.4,1-6.5,2.5-9.2 c9.1,11.1,22.7,18.5,38,19.2c-0.2-1.4-0.4-2.8-0.4-4.3c0.1-10,8.3-18.2,18.5-18.2c5.4,0,10.1,2.2,13.5,5.7c4.3-0.8,8.1-2.3,11.7-4.5 c-1.4,4.3-4.3,7.9-8.1,10.1c3.7-0.4,7.3-1.4,10.6-2.9C98.9,32.3,95.7,35.5,92.2,38.2z"></path></svg></span>
+                          </a>
+                          <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-custom-color-3 u-icon-27"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-7fdd"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-7fdd" class="u-svg-content"><path d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path><path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path><path d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path></svg></span>
+                          </a>
+                          <a class="u-social-url" target="_blank" href="#"><span class="u-icon u-icon-circle u-social-icon u-social-linkedin u-text-custom-color-3 u-icon-28"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-353d"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-353d" class="u-svg-content"><path d="M33.8,96.8H14.5v-58h19.3V96.8z M24.1,30.9L24.1,30.9c-6.6,0-10.8-4.5-10.8-10.1c0-5.8,4.3-10.1,10.9-10.1 S34.9,15,35.1,20.8C35.1,26.4,30.8,30.9,24.1,30.9z M103.3,96.8H84.1v-31c0-7.8-2.7-13.1-9.8-13.1c-5.3,0-8.5,3.6-9.9,7.1 c-0.6,1.3-0.6,3-0.6,4.8V97H44.5c0,0,0.3-52.6,0-58h19.3v8.2c2.6-3.9,7.2-9.6,17.4-9.6c12.7,0,22.2,8.4,22.2,26.1V96.8z"></path></svg></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="u-align-center u-black u-container-style u-list-item u-radius-17 u-repeater-item u-shape-round">
+                      <div class="u-container-layout u-similar-container u-container-layout-10">
+                        <div class="u-image u-image-circle u-image-8" data-image-width="626" data-image-height="417" data-animation-name="zoomIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction=""></div>
+                        <h3 class="u-align-center-xl u-custom-font u-font-open-sans u-text u-text-default u-text-17">May Smith</h3>
+                        <p class="u-align-center-xl u-text u-text-custom-color-3 u-text-default u-text-18">web designer</p>
+                        <div class="u-social-icons u-spacing-10 u-social-icons-8" data-animation-name="bounceIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
+                          <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-custom-color-3 u-icon-29"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-2d92"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-2d92" class="u-svg-content"><path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg></span>
+                          </a>
+                          <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-twitter u-text-custom-color-3 u-icon-30"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-eb17"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-eb17" class="u-svg-content"><path d="M92.2,38.2c0,0.8,0,1.6,0,2.3c0,24.3-18.6,52.4-52.6,52.4c-10.6,0.1-20.2-2.9-28.5-8.2 c1.4,0.2,2.9,0.2,4.4,0.2c8.7,0,16.7-2.9,23-7.9c-8.1-0.2-14.9-5.5-17.3-12.8c1.1,0.2,2.4,0.2,3.4,0.2c1.6,0,3.3-0.2,4.8-0.7 c-8.4-1.6-14.9-9.2-14.9-18c0-0.2,0-0.2,0-0.2c2.5,1.4,5.4,2.2,8.4,2.3c-5-3.3-8.3-8.9-8.3-15.4c0-3.4,1-6.5,2.5-9.2 c9.1,11.1,22.7,18.5,38,19.2c-0.2-1.4-0.4-2.8-0.4-4.3c0.1-10,8.3-18.2,18.5-18.2c5.4,0,10.1,2.2,13.5,5.7c4.3-0.8,8.1-2.3,11.7-4.5 c-1.4,4.3-4.3,7.9-8.1,10.1c3.7-0.4,7.3-1.4,10.6-2.9C98.9,32.3,95.7,35.5,92.2,38.2z"></path></svg></span>
+                          </a>
+                          <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-custom-color-3 u-icon-31"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-1771"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-1771" class="u-svg-content"><path d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path><path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path><path d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path></svg></span>
+                          </a>
+                          <a class="u-social-url" target="_blank" href="#"><span class="u-icon u-icon-circle u-social-icon u-social-linkedin u-text-custom-color-3 u-icon-32"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-f5fd"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-f5fd" class="u-svg-content"><path d="M33.8,96.8H14.5v-58h19.3V96.8z M24.1,30.9L24.1,30.9c-6.6,0-10.8-4.5-10.8-10.1c0-5.8,4.3-10.1,10.9-10.1 S34.9,15,35.1,20.8C35.1,26.4,30.8,30.9,24.1,30.9z M103.3,96.8H84.1v-31c0-7.8-2.7-13.1-9.8-13.1c-5.3,0-8.5,3.6-9.9,7.1 c-0.6,1.3-0.6,3-0.6,4.8V97H44.5c0,0,0.3-52.6,0-58h19.3v8.2c2.6-3.9,7.2-9.6,17.4-9.6c12.7,0,22.2,8.4,22.2,26.1V96.8z"></path></svg></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <a class="u-absolute-vcenter u-gallery-nav u-gallery-nav-prev u-hidden u-icon-circle u-opacity u-opacity-70 u-text-palette-3-base u-gallery-nav-3" href="#" role="button">
+                    <span aria-hidden="true">
+                      <svg viewBox="0 0 451.847 451.847"><path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0
+c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744
+c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z"></path></svg>
+                    </span>
+                    <span class="sr-only">
+                      <svg viewBox="0 0 451.847 451.847"><path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0
+c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744
+c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z"></path></svg>
+                    </span>
+                  </a>
+                  <a class="u-absolute-vcenter u-gallery-nav u-gallery-nav-next u-hidden u-icon-circle u-opacity u-opacity-70 u-text-palette-3-base u-gallery-nav-4" href="#" role="button">
+                    <span aria-hidden="true">
+                      <svg viewBox="0 0 451.846 451.847"><path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
+L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
+c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"></path></svg>
+                    </span>
+                    <span class="sr-only">
+                      <svg viewBox="0 0 451.846 451.847"><path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
+L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
+c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"></path></svg>
+                    </span>
+                  </a>
+                </div>
+              </div>
+              <style data-mode="XL">.u-block-null-6 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.u-block-null-123 {
+  grid-auto-rows: 100%;
+  width: 990px;
+  margin-top: 25px;
+  margin-right: 16px;
+  margin-bottom: 0;
+  margin-left: auto;
+}
+.u-block-null-124 {
+  grid-template-columns: calc(25% - 9px) calc(25% - 9px) calc(25% - 9px) calc(25% - 9px);
+  min-height: 343px;
+  grid-gap: 12px 12px;
+}
+.u-block-null-126 {
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 19px;
+}
+.u-block-null-127 {
+  width: 176px;
+  height: 175px;
+  background-position: 50% 50%;
+  animation-duration: 1000ms;
+  margin-top: 7px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-128 {
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-129 {
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-130 {
+  white-space: nowrap;
+  height: 27px;
+  min-height: 16px;
+  width: 138px;
+  min-width: 94px;
+  animation-duration: 1000ms;
+  margin-top: 19px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-131 {
+  height: 100%;
+}
+.u-block-null-132 {
+  height: 100%;
+}
+.u-block-null-133 {
+  height: 100%;
+}
+.u-block-null-134 {
+  height: 100%;
+}
+.u-block-null-136 {
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 19px;
+}
+.u-block-null-137 {
+  width: 176px;
+  height: 175px;
+  background-position: 50% 50%;
+  animation-duration: 1000ms;
+  margin-top: 7px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-138 {
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-139 {
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-140 {
+  white-space: nowrap;
+  height: 27px;
+  min-height: 16px;
+  width: 138px;
+  min-width: 94px;
+  animation-duration: 1000ms;
+  margin-top: 19px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-141 {
+  height: 100%;
+}
+.u-block-null-142 {
+  height: 100%;
+}
+.u-block-null-143 {
+  height: 100%;
+}
+.u-block-null-144 {
+  height: 100%;
+}
+.u-block-null-146 {
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 19px;
+}
+.u-block-null-147 {
+  width: 176px;
+  height: 175px;
+  background-position: 50% 50%;
+  animation-duration: 1000ms;
+  margin-top: 7px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-148 {
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-149 {
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-150 {
+  white-space: nowrap;
+  height: 27px;
+  min-height: 16px;
+  width: 138px;
+  min-width: 94px;
+  animation-duration: 1000ms;
+  margin-top: 19px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-151 {
+  height: 100%;
+}
+.u-block-null-152 {
+  height: 100%;
+}
+.u-block-null-153 {
+  height: 100%;
+}
+.u-block-null-154 {
+  height: 100%;
+}
+.u-block-null-156 {
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 19px;
+}
+.u-block-null-157 {
+  width: 176px;
+  height: 175px;
+  background-position: 50% 50%;
+  animation-duration: 1000ms;
+  margin-top: 7px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-158 {
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-159 {
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-160 {
+  white-space: nowrap;
+  height: 27px;
+  min-height: 16px;
+  width: 138px;
+  min-width: 94px;
+  animation-duration: 1000ms;
+  margin-top: 19px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-161 {
+  height: 100%;
+}
+.u-block-null-162 {
+  height: 100%;
+}
+.u-block-null-163 {
+  height: 100%;
+}
+.u-block-null-164 {
+  height: 100%;
+}
+.u-block-null-165 {
+  position: absolute;
+  left: 10px;
+  width: 20px;
+  height: 20px;
+}
+.u-block-null-166 {
+  position: absolute;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+}</style>
+              <style data-mode="LG">@media (max-width: 1199px) {
+  .u-block-null-6 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .u-block-null-123 {
+    grid-auto-rows: 100%;
+    width: 840px;
+    margin-top: 25px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+  }
+  .u-block-null-124 {
+    grid-template-columns: repeat(undefined, NaN%);
+    min-height: 291px;
+    grid-gap: 12px 12px;
+  }
+  .u-block-null-126 {
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-127 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-128 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-129 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-130 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-131 {
+    height: 100%;
+  }
+  .u-block-null-132 {
+    height: 100%;
+  }
+  .u-block-null-133 {
+    height: 100%;
+  }
+  .u-block-null-134 {
+    height: 100%;
+  }
+  .u-block-null-136 {
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-137 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-138 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-139 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-140 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-141 {
+    height: 100%;
+  }
+  .u-block-null-142 {
+    height: 100%;
+  }
+  .u-block-null-143 {
+    height: 100%;
+  }
+  .u-block-null-144 {
+    height: 100%;
+  }
+  .u-block-null-146 {
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-147 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-148 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-149 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-150 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-151 {
+    height: 100%;
+  }
+  .u-block-null-152 {
+    height: 100%;
+  }
+  .u-block-null-153 {
+    height: 100%;
+  }
+  .u-block-null-154 {
+    height: 100%;
+  }
+  .u-block-null-156 {
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-157 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-158 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-159 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-160 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-161 {
+    height: 100%;
+  }
+  .u-block-null-162 {
+    height: 100%;
+  }
+  .u-block-null-163 {
+    height: 100%;
+  }
+  .u-block-null-164 {
+    height: 100%;
+  }
+  .u-block-null-165 {
+    position: absolute;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+  }
+  .u-block-null-166 {
+    position: absolute;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+  }
+}</style>
+              <style data-mode="MD">@media (max-width: 991px) {
+  .u-block-null-6 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .u-block-null-123 {
+    grid-auto-rows: 100%;
+    width: 660px;
+    margin-top: 25px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+  }
+  .u-block-null-124 {
+    grid-template-columns: 100%;
+    min-height: 915px;
+    grid-gap: 12px 12px;
+  }
+  .u-block-null-126 {
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-127 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-128 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-129 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-130 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-131 {
+    height: 100%;
+  }
+  .u-block-null-132 {
+    height: 100%;
+  }
+  .u-block-null-133 {
+    height: 100%;
+  }
+  .u-block-null-134 {
+    height: 100%;
+  }
+  .u-block-null-136 {
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-137 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-138 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-139 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-140 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-141 {
+    height: 100%;
+  }
+  .u-block-null-142 {
+    height: 100%;
+  }
+  .u-block-null-143 {
+    height: 100%;
+  }
+  .u-block-null-144 {
+    height: 100%;
+  }
+  .u-block-null-146 {
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-147 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-148 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-149 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-150 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-151 {
+    height: 100%;
+  }
+  .u-block-null-152 {
+    height: 100%;
+  }
+  .u-block-null-153 {
+    height: 100%;
+  }
+  .u-block-null-154 {
+    height: 100%;
+  }
+  .u-block-null-156 {
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-157 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-158 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-159 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-160 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-161 {
+    height: 100%;
+  }
+  .u-block-null-162 {
+    height: 100%;
+  }
+  .u-block-null-163 {
+    height: 100%;
+  }
+  .u-block-null-164 {
+    height: 100%;
+  }
+  .u-block-null-165 {
+    position: absolute;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+  }
+  .u-block-null-166 {
+    position: absolute;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+  }
+}</style>
+              <style data-mode="SM">@media (max-width: 767px) {
+  .u-block-null-6 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .u-block-null-123 {
+    grid-auto-rows: 100%;
+    width: 520px;
+    margin-top: 25px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+  }
+  .u-block-null-124 {
+    grid-template-columns: 100%;
+    min-height: 915px;
+    grid-gap: 12px 12px;
+  }
+  .u-block-null-126 {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-127 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-128 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-129 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-130 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-131 {
+    height: 100%;
+  }
+  .u-block-null-132 {
+    height: 100%;
+  }
+  .u-block-null-133 {
+    height: 100%;
+  }
+  .u-block-null-134 {
+    height: 100%;
+  }
+  .u-block-null-136 {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-137 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-138 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-139 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-140 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-141 {
+    height: 100%;
+  }
+  .u-block-null-142 {
+    height: 100%;
+  }
+  .u-block-null-143 {
+    height: 100%;
+  }
+  .u-block-null-144 {
+    height: 100%;
+  }
+  .u-block-null-146 {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-147 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-148 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-149 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-150 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-151 {
+    height: 100%;
+  }
+  .u-block-null-152 {
+    height: 100%;
+  }
+  .u-block-null-153 {
+    height: 100%;
+  }
+  .u-block-null-154 {
+    height: 100%;
+  }
+  .u-block-null-156 {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-157 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-158 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-159 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-160 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-161 {
+    height: 100%;
+  }
+  .u-block-null-162 {
+    height: 100%;
+  }
+  .u-block-null-163 {
+    height: 100%;
+  }
+  .u-block-null-164 {
+    height: 100%;
+  }
+  .u-block-null-165 {
+    position: absolute;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+  }
+  .u-block-null-166 {
+    position: absolute;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+  }
+}</style>
+              <style data-mode="XS">@media (max-width: 575px) {
+  .u-block-null-6 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .u-block-null-123 {
+    grid-auto-rows: 100%;
+    width: 320px;
+    margin-top: 25px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+  }
+  .u-block-null-124 {
+    grid-template-columns: 100%;
+    min-height: 915px;
+    grid-gap: 12px 12px;
+  }
+  .u-block-null-126 {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-127 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-128 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-129 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-130 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-131 {
+    height: 100%;
+  }
+  .u-block-null-132 {
+    height: 100%;
+  }
+  .u-block-null-133 {
+    height: 100%;
+  }
+  .u-block-null-134 {
+    height: 100%;
+  }
+  .u-block-null-136 {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-137 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-138 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-139 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-140 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-141 {
+    height: 100%;
+  }
+  .u-block-null-142 {
+    height: 100%;
+  }
+  .u-block-null-143 {
+    height: 100%;
+  }
+  .u-block-null-144 {
+    height: 100%;
+  }
+  .u-block-null-146 {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-147 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-148 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-149 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-150 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-151 {
+    height: 100%;
+  }
+  .u-block-null-152 {
+    height: 100%;
+  }
+  .u-block-null-153 {
+    height: 100%;
+  }
+  .u-block-null-154 {
+    height: 100%;
+  }
+  .u-block-null-156 {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-157 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-158 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-159 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-160 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-161 {
+    height: 100%;
+  }
+  .u-block-null-162 {
+    height: 100%;
+  }
+  .u-block-null-163 {
+    height: 100%;
+  }
+  .u-block-null-164 {
+    height: 100%;
+  }
+  .u-block-null-165 {
+    position: absolute;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+  }
+  .u-block-null-166 {
+    position: absolute;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+  }
+}</style>
+            </div>
+            <div class="u-carousel-item u-container-style u-slide">
+              <div class="u-container-layout u-container-layout-11">
+                <div class="u-layout-horizontal u-list u-list-3">
+                  <div class="u-repeater u-repeater-3">
+                    <div class="u-align-center-lg u-align-center-md u-align-center-sm u-align-center-xs u-black u-container-style u-list-item u-radius-17 u-repeater-item u-shape-round">
+                      <div class="u-container-layout u-similar-container u-container-layout-12">
+                        <div class="u-image u-image-circle u-image-9" data-animation-name="zoomIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction=""></div>
+                        <h3 class="u-align-center-xl u-custom-font u-font-open-sans u-text u-text-default u-text-19">Jeffrey Brown</h3>
+                        <p class="u-align-center-xl u-text u-text-custom-color-3 u-text-default u-text-20">creative leader</p>
+                        <div class="u-social-icons u-spacing-10 u-social-icons-9" data-animation-name="bounceIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
+                          <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-custom-color-3 u-icon-33"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-e0c4"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-e0c4" class="u-svg-content"><path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg></span>
+                          </a>
+                          <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-twitter u-text-custom-color-3 u-icon-34"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-d62a"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-d62a" class="u-svg-content"><path d="M92.2,38.2c0,0.8,0,1.6,0,2.3c0,24.3-18.6,52.4-52.6,52.4c-10.6,0.1-20.2-2.9-28.5-8.2 c1.4,0.2,2.9,0.2,4.4,0.2c8.7,0,16.7-2.9,23-7.9c-8.1-0.2-14.9-5.5-17.3-12.8c1.1,0.2,2.4,0.2,3.4,0.2c1.6,0,3.3-0.2,4.8-0.7 c-8.4-1.6-14.9-9.2-14.9-18c0-0.2,0-0.2,0-0.2c2.5,1.4,5.4,2.2,8.4,2.3c-5-3.3-8.3-8.9-8.3-15.4c0-3.4,1-6.5,2.5-9.2 c9.1,11.1,22.7,18.5,38,19.2c-0.2-1.4-0.4-2.8-0.4-4.3c0.1-10,8.3-18.2,18.5-18.2c5.4,0,10.1,2.2,13.5,5.7c4.3-0.8,8.1-2.3,11.7-4.5 c-1.4,4.3-4.3,7.9-8.1,10.1c3.7-0.4,7.3-1.4,10.6-2.9C98.9,32.3,95.7,35.5,92.2,38.2z"></path></svg></span>
+                          </a>
+                          <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-custom-color-3 u-icon-35"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-cca3"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-cca3" class="u-svg-content"><path d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path><path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path><path d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path></svg></span>
+                          </a>
+                          <a class="u-social-url" target="_blank" href="#"><span class="u-icon u-icon-circle u-social-icon u-social-linkedin u-text-custom-color-3 u-icon-36"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-3ecf"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-3ecf" class="u-svg-content"><path d="M33.8,96.8H14.5v-58h19.3V96.8z M24.1,30.9L24.1,30.9c-6.6,0-10.8-4.5-10.8-10.1c0-5.8,4.3-10.1,10.9-10.1 S34.9,15,35.1,20.8C35.1,26.4,30.8,30.9,24.1,30.9z M103.3,96.8H84.1v-31c0-7.8-2.7-13.1-9.8-13.1c-5.3,0-8.5,3.6-9.9,7.1 c-0.6,1.3-0.6,3-0.6,4.8V97H44.5c0,0,0.3-52.6,0-58h19.3v8.2c2.6-3.9,7.2-9.6,17.4-9.6c12.7,0,22.2,8.4,22.2,26.1V96.8z"></path></svg></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="u-align-center u-black u-container-style u-list-item u-radius-17 u-repeater-item u-shape-round">
+                      <div class="u-container-layout u-similar-container u-container-layout-13">
+                        <div class="u-image u-image-circle u-image-10" data-image-width="626" data-image-height="417" data-animation-name="zoomIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction=""></div>
+                        <h3 class="u-align-center-xl u-custom-font u-font-open-sans u-text u-text-default u-text-21">Ann Richmond</h3>
+                        <p class="u-align-center-xl u-text u-text-custom-color-3 u-text-default u-text-22">sales manager</p>
+                        <div class="u-social-icons u-spacing-10 u-social-icons-10" data-animation-name="bounceIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
+                          <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-custom-color-3 u-icon-37"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-29c4"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-29c4" class="u-svg-content"><path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg></span>
+                          </a>
+                          <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-twitter u-text-custom-color-3 u-icon-38"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-2a64"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-2a64" class="u-svg-content"><path d="M92.2,38.2c0,0.8,0,1.6,0,2.3c0,24.3-18.6,52.4-52.6,52.4c-10.6,0.1-20.2-2.9-28.5-8.2 c1.4,0.2,2.9,0.2,4.4,0.2c8.7,0,16.7-2.9,23-7.9c-8.1-0.2-14.9-5.5-17.3-12.8c1.1,0.2,2.4,0.2,3.4,0.2c1.6,0,3.3-0.2,4.8-0.7 c-8.4-1.6-14.9-9.2-14.9-18c0-0.2,0-0.2,0-0.2c2.5,1.4,5.4,2.2,8.4,2.3c-5-3.3-8.3-8.9-8.3-15.4c0-3.4,1-6.5,2.5-9.2 c9.1,11.1,22.7,18.5,38,19.2c-0.2-1.4-0.4-2.8-0.4-4.3c0.1-10,8.3-18.2,18.5-18.2c5.4,0,10.1,2.2,13.5,5.7c4.3-0.8,8.1-2.3,11.7-4.5 c-1.4,4.3-4.3,7.9-8.1,10.1c3.7-0.4,7.3-1.4,10.6-2.9C98.9,32.3,95.7,35.5,92.2,38.2z"></path></svg></span>
+                          </a>
+                          <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-custom-color-3 u-icon-39"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-7bed"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-7bed" class="u-svg-content"><path d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path><path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path><path d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path></svg></span>
+                          </a>
+                          <a class="u-social-url" target="_blank" href="#"><span class="u-icon u-icon-circle u-social-icon u-social-linkedin u-text-custom-color-3 u-icon-40"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-6340"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-6340" class="u-svg-content"><path d="M33.8,96.8H14.5v-58h19.3V96.8z M24.1,30.9L24.1,30.9c-6.6,0-10.8-4.5-10.8-10.1c0-5.8,4.3-10.1,10.9-10.1 S34.9,15,35.1,20.8C35.1,26.4,30.8,30.9,24.1,30.9z M103.3,96.8H84.1v-31c0-7.8-2.7-13.1-9.8-13.1c-5.3,0-8.5,3.6-9.9,7.1 c-0.6,1.3-0.6,3-0.6,4.8V97H44.5c0,0,0.3-52.6,0-58h19.3v8.2c2.6-3.9,7.2-9.6,17.4-9.6c12.7,0,22.2,8.4,22.2,26.1V96.8z"></path></svg></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="u-align-center u-black u-container-style u-list-item u-radius-17 u-repeater-item u-shape-round">
+                      <div class="u-container-layout u-similar-container u-container-layout-14">
+                        <div class="u-image u-image-circle u-image-11" data-image-width="626" data-image-height="417" data-animation-name="zoomIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction=""></div>
+                        <h3 class="u-align-center-xl u-custom-font u-font-open-sans u-text u-text-default u-text-23">Alex Greenfield</h3>
+                        <p class="u-align-center-xl u-text u-text-custom-color-3 u-text-default u-text-24">developer</p>
+                        <div class="u-social-icons u-spacing-10 u-social-icons-11" data-animation-name="bounceIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
+                          <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-custom-color-3 u-icon-41"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-1314"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-1314" class="u-svg-content"><path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg></span>
+                          </a>
+                          <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-twitter u-text-custom-color-3 u-icon-42"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-0148"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-0148" class="u-svg-content"><path d="M92.2,38.2c0,0.8,0,1.6,0,2.3c0,24.3-18.6,52.4-52.6,52.4c-10.6,0.1-20.2-2.9-28.5-8.2 c1.4,0.2,2.9,0.2,4.4,0.2c8.7,0,16.7-2.9,23-7.9c-8.1-0.2-14.9-5.5-17.3-12.8c1.1,0.2,2.4,0.2,3.4,0.2c1.6,0,3.3-0.2,4.8-0.7 c-8.4-1.6-14.9-9.2-14.9-18c0-0.2,0-0.2,0-0.2c2.5,1.4,5.4,2.2,8.4,2.3c-5-3.3-8.3-8.9-8.3-15.4c0-3.4,1-6.5,2.5-9.2 c9.1,11.1,22.7,18.5,38,19.2c-0.2-1.4-0.4-2.8-0.4-4.3c0.1-10,8.3-18.2,18.5-18.2c5.4,0,10.1,2.2,13.5,5.7c4.3-0.8,8.1-2.3,11.7-4.5 c-1.4,4.3-4.3,7.9-8.1,10.1c3.7-0.4,7.3-1.4,10.6-2.9C98.9,32.3,95.7,35.5,92.2,38.2z"></path></svg></span>
+                          </a>
+                          <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-custom-color-3 u-icon-43"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-d9d8"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-d9d8" class="u-svg-content"><path d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path><path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path><path d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path></svg></span>
+                          </a>
+                          <a class="u-social-url" target="_blank" href="#"><span class="u-icon u-icon-circle u-social-icon u-social-linkedin u-text-custom-color-3 u-icon-44"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-d0fd"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-d0fd" class="u-svg-content"><path d="M33.8,96.8H14.5v-58h19.3V96.8z M24.1,30.9L24.1,30.9c-6.6,0-10.8-4.5-10.8-10.1c0-5.8,4.3-10.1,10.9-10.1 S34.9,15,35.1,20.8C35.1,26.4,30.8,30.9,24.1,30.9z M103.3,96.8H84.1v-31c0-7.8-2.7-13.1-9.8-13.1c-5.3,0-8.5,3.6-9.9,7.1 c-0.6,1.3-0.6,3-0.6,4.8V97H44.5c0,0,0.3-52.6,0-58h19.3v8.2c2.6-3.9,7.2-9.6,17.4-9.6c12.7,0,22.2,8.4,22.2,26.1V96.8z"></path></svg></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="u-align-center u-black u-container-style u-list-item u-radius-17 u-repeater-item u-shape-round">
+                      <div class="u-container-layout u-similar-container u-container-layout-15">
+                        <div class="u-image u-image-circle u-image-12" data-image-width="626" data-image-height="417" data-animation-name="zoomIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction=""></div>
+                        <h3 class="u-align-center-xl u-custom-font u-font-open-sans u-text u-text-default u-text-25">May Smith</h3>
+                        <p class="u-align-center-xl u-text u-text-custom-color-3 u-text-default u-text-26">web designer</p>
+                        <div class="u-social-icons u-spacing-10 u-social-icons-12" data-animation-name="bounceIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
+                          <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-custom-color-3 u-icon-45"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-e79e"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-e79e" class="u-svg-content"><path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg></span>
+                          </a>
+                          <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-twitter u-text-custom-color-3 u-icon-46"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-298b"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-298b" class="u-svg-content"><path d="M92.2,38.2c0,0.8,0,1.6,0,2.3c0,24.3-18.6,52.4-52.6,52.4c-10.6,0.1-20.2-2.9-28.5-8.2 c1.4,0.2,2.9,0.2,4.4,0.2c8.7,0,16.7-2.9,23-7.9c-8.1-0.2-14.9-5.5-17.3-12.8c1.1,0.2,2.4,0.2,3.4,0.2c1.6,0,3.3-0.2,4.8-0.7 c-8.4-1.6-14.9-9.2-14.9-18c0-0.2,0-0.2,0-0.2c2.5,1.4,5.4,2.2,8.4,2.3c-5-3.3-8.3-8.9-8.3-15.4c0-3.4,1-6.5,2.5-9.2 c9.1,11.1,22.7,18.5,38,19.2c-0.2-1.4-0.4-2.8-0.4-4.3c0.1-10,8.3-18.2,18.5-18.2c5.4,0,10.1,2.2,13.5,5.7c4.3-0.8,8.1-2.3,11.7-4.5 c-1.4,4.3-4.3,7.9-8.1,10.1c3.7-0.4,7.3-1.4,10.6-2.9C98.9,32.3,95.7,35.5,92.2,38.2z"></path></svg></span>
+                          </a>
+                          <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-custom-color-3 u-icon-47"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-717d"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-717d" class="u-svg-content"><path d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path><path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path><path d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path></svg></span>
+                          </a>
+                          <a class="u-social-url" target="_blank" href="#"><span class="u-icon u-icon-circle u-social-icon u-social-linkedin u-text-custom-color-3 u-icon-48"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-efc0"></use></svg><svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-efc0" class="u-svg-content"><path d="M33.8,96.8H14.5v-58h19.3V96.8z M24.1,30.9L24.1,30.9c-6.6,0-10.8-4.5-10.8-10.1c0-5.8,4.3-10.1,10.9-10.1 S34.9,15,35.1,20.8C35.1,26.4,30.8,30.9,24.1,30.9z M103.3,96.8H84.1v-31c0-7.8-2.7-13.1-9.8-13.1c-5.3,0-8.5,3.6-9.9,7.1 c-0.6,1.3-0.6,3-0.6,4.8V97H44.5c0,0,0.3-52.6,0-58h19.3v8.2c2.6-3.9,7.2-9.6,17.4-9.6c12.7,0,22.2,8.4,22.2,26.1V96.8z"></path></svg></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <a class="u-absolute-vcenter u-gallery-nav u-gallery-nav-prev u-hidden u-icon-circle u-opacity u-opacity-70 u-text-palette-3-base u-gallery-nav-5" href="#" role="button">
+                    <span aria-hidden="true">
+                      <svg viewBox="0 0 451.847 451.847"><path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0
+c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744
+c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z"></path></svg>
+                    </span>
+                    <span class="sr-only">
+                      <svg viewBox="0 0 451.847 451.847"><path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0
+c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744
+c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z"></path></svg>
+                    </span>
+                  </a>
+                  <a class="u-absolute-vcenter u-gallery-nav u-gallery-nav-next u-hidden u-icon-circle u-opacity u-opacity-70 u-text-palette-3-base u-gallery-nav-6" href="#" role="button">
+                    <span aria-hidden="true">
+                      <svg viewBox="0 0 451.846 451.847"><path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
+L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
+c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"></path></svg>
+                    </span>
+                    <span class="sr-only">
+                      <svg viewBox="0 0 451.846 451.847"><path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
+L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
+c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"></path></svg>
+                    </span>
+                  </a>
+                </div>
+              </div>
+              <style data-mode="XL">.u-block-null-6 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.u-block-null-123 {
+  grid-auto-rows: 100%;
+  width: 990px;
+  margin-top: 25px;
+  margin-right: 16px;
+  margin-bottom: 0;
+  margin-left: auto;
+}
+.u-block-null-124 {
+  grid-template-columns: calc(25% - 9px) calc(25% - 9px) calc(25% - 9px) calc(25% - 9px);
+  min-height: 343px;
+  grid-gap: 12px 12px;
+}
+.u-block-null-126 {
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 19px;
+}
+.u-block-null-127 {
+  width: 176px;
+  height: 175px;
+  background-position: 50% 50%;
+  animation-duration: 1000ms;
+  margin-top: 7px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-128 {
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-129 {
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-130 {
+  white-space: nowrap;
+  height: 27px;
+  min-height: 16px;
+  width: 138px;
+  min-width: 94px;
+  animation-duration: 1000ms;
+  margin-top: 19px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-131 {
+  height: 100%;
+}
+.u-block-null-132 {
+  height: 100%;
+}
+.u-block-null-133 {
+  height: 100%;
+}
+.u-block-null-134 {
+  height: 100%;
+}
+.u-block-null-136 {
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 19px;
+}
+.u-block-null-137 {
+  width: 176px;
+  height: 175px;
+  background-position: 50% 50%;
+  animation-duration: 1000ms;
+  margin-top: 7px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-138 {
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-139 {
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-140 {
+  white-space: nowrap;
+  height: 27px;
+  min-height: 16px;
+  width: 138px;
+  min-width: 94px;
+  animation-duration: 1000ms;
+  margin-top: 19px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-141 {
+  height: 100%;
+}
+.u-block-null-142 {
+  height: 100%;
+}
+.u-block-null-143 {
+  height: 100%;
+}
+.u-block-null-144 {
+  height: 100%;
+}
+.u-block-null-146 {
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 19px;
+}
+.u-block-null-147 {
+  width: 176px;
+  height: 175px;
+  background-position: 50% 50%;
+  animation-duration: 1000ms;
+  margin-top: 7px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-148 {
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-149 {
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-150 {
+  white-space: nowrap;
+  height: 27px;
+  min-height: 16px;
+  width: 138px;
+  min-width: 94px;
+  animation-duration: 1000ms;
+  margin-top: 19px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-151 {
+  height: 100%;
+}
+.u-block-null-152 {
+  height: 100%;
+}
+.u-block-null-153 {
+  height: 100%;
+}
+.u-block-null-154 {
+  height: 100%;
+}
+.u-block-null-156 {
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 19px;
+}
+.u-block-null-157 {
+  width: 176px;
+  height: 175px;
+  background-position: 50% 50%;
+  animation-duration: 1000ms;
+  margin-top: 7px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-158 {
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-159 {
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-160 {
+  white-space: nowrap;
+  height: 27px;
+  min-height: 16px;
+  width: 138px;
+  min-width: 94px;
+  animation-duration: 1000ms;
+  margin-top: 19px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+.u-block-null-161 {
+  height: 100%;
+}
+.u-block-null-162 {
+  height: 100%;
+}
+.u-block-null-163 {
+  height: 100%;
+}
+.u-block-null-164 {
+  height: 100%;
+}
+.u-block-null-165 {
+  position: absolute;
+  left: 10px;
+  width: 20px;
+  height: 20px;
+}
+.u-block-null-166 {
+  position: absolute;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+}</style>
+              <style data-mode="LG">@media (max-width: 1199px) {
+  .u-block-null-6 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .u-block-null-123 {
+    grid-auto-rows: 100%;
+    width: 840px;
+    margin-top: 25px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+  }
+  .u-block-null-124 {
+    grid-template-columns: repeat(undefined, NaN%);
+    min-height: 291px;
+    grid-gap: 12px 12px;
+  }
+  .u-block-null-126 {
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-127 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-128 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-129 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-130 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-131 {
+    height: 100%;
+  }
+  .u-block-null-132 {
+    height: 100%;
+  }
+  .u-block-null-133 {
+    height: 100%;
+  }
+  .u-block-null-134 {
+    height: 100%;
+  }
+  .u-block-null-136 {
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-137 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-138 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-139 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-140 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-141 {
+    height: 100%;
+  }
+  .u-block-null-142 {
+    height: 100%;
+  }
+  .u-block-null-143 {
+    height: 100%;
+  }
+  .u-block-null-144 {
+    height: 100%;
+  }
+  .u-block-null-146 {
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-147 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-148 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-149 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-150 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-151 {
+    height: 100%;
+  }
+  .u-block-null-152 {
+    height: 100%;
+  }
+  .u-block-null-153 {
+    height: 100%;
+  }
+  .u-block-null-154 {
+    height: 100%;
+  }
+  .u-block-null-156 {
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-157 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-158 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-159 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-160 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-161 {
+    height: 100%;
+  }
+  .u-block-null-162 {
+    height: 100%;
+  }
+  .u-block-null-163 {
+    height: 100%;
+  }
+  .u-block-null-164 {
+    height: 100%;
+  }
+  .u-block-null-165 {
+    position: absolute;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+  }
+  .u-block-null-166 {
+    position: absolute;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+  }
+}</style>
+              <style data-mode="MD">@media (max-width: 991px) {
+  .u-block-null-6 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .u-block-null-123 {
+    grid-auto-rows: 100%;
+    width: 660px;
+    margin-top: 25px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+  }
+  .u-block-null-124 {
+    grid-template-columns: 100%;
+    min-height: 915px;
+    grid-gap: 12px 12px;
+  }
+  .u-block-null-126 {
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-127 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-128 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-129 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-130 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-131 {
+    height: 100%;
+  }
+  .u-block-null-132 {
+    height: 100%;
+  }
+  .u-block-null-133 {
+    height: 100%;
+  }
+  .u-block-null-134 {
+    height: 100%;
+  }
+  .u-block-null-136 {
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-137 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-138 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-139 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-140 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-141 {
+    height: 100%;
+  }
+  .u-block-null-142 {
+    height: 100%;
+  }
+  .u-block-null-143 {
+    height: 100%;
+  }
+  .u-block-null-144 {
+    height: 100%;
+  }
+  .u-block-null-146 {
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-147 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-148 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-149 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-150 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-151 {
+    height: 100%;
+  }
+  .u-block-null-152 {
+    height: 100%;
+  }
+  .u-block-null-153 {
+    height: 100%;
+  }
+  .u-block-null-154 {
+    height: 100%;
+  }
+  .u-block-null-156 {
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-157 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-158 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-159 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-160 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-161 {
+    height: 100%;
+  }
+  .u-block-null-162 {
+    height: 100%;
+  }
+  .u-block-null-163 {
+    height: 100%;
+  }
+  .u-block-null-164 {
+    height: 100%;
+  }
+  .u-block-null-165 {
+    position: absolute;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+  }
+  .u-block-null-166 {
+    position: absolute;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+  }
+}</style>
+              <style data-mode="SM">@media (max-width: 767px) {
+  .u-block-null-6 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .u-block-null-123 {
+    grid-auto-rows: 100%;
+    width: 520px;
+    margin-top: 25px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+  }
+  .u-block-null-124 {
+    grid-template-columns: 100%;
+    min-height: 915px;
+    grid-gap: 12px 12px;
+  }
+  .u-block-null-126 {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-127 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-128 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-129 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-130 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-131 {
+    height: 100%;
+  }
+  .u-block-null-132 {
+    height: 100%;
+  }
+  .u-block-null-133 {
+    height: 100%;
+  }
+  .u-block-null-134 {
+    height: 100%;
+  }
+  .u-block-null-136 {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-137 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-138 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-139 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-140 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-141 {
+    height: 100%;
+  }
+  .u-block-null-142 {
+    height: 100%;
+  }
+  .u-block-null-143 {
+    height: 100%;
+  }
+  .u-block-null-144 {
+    height: 100%;
+  }
+  .u-block-null-146 {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-147 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-148 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-149 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-150 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-151 {
+    height: 100%;
+  }
+  .u-block-null-152 {
+    height: 100%;
+  }
+  .u-block-null-153 {
+    height: 100%;
+  }
+  .u-block-null-154 {
+    height: 100%;
+  }
+  .u-block-null-156 {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-157 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-158 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-159 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-160 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-161 {
+    height: 100%;
+  }
+  .u-block-null-162 {
+    height: 100%;
+  }
+  .u-block-null-163 {
+    height: 100%;
+  }
+  .u-block-null-164 {
+    height: 100%;
+  }
+  .u-block-null-165 {
+    position: absolute;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+  }
+  .u-block-null-166 {
+    position: absolute;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+  }
+}</style>
+              <style data-mode="XS">@media (max-width: 575px) {
+  .u-block-null-6 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .u-block-null-123 {
+    grid-auto-rows: 100%;
+    width: 320px;
+    margin-top: 25px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+  }
+  .u-block-null-124 {
+    grid-template-columns: 100%;
+    min-height: 915px;
+    grid-gap: 12px 12px;
+  }
+  .u-block-null-126 {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-127 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-128 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-129 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-130 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-131 {
+    height: 100%;
+  }
+  .u-block-null-132 {
+    height: 100%;
+  }
+  .u-block-null-133 {
+    height: 100%;
+  }
+  .u-block-null-134 {
+    height: 100%;
+  }
+  .u-block-null-136 {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-137 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-138 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-139 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-140 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-141 {
+    height: 100%;
+  }
+  .u-block-null-142 {
+    height: 100%;
+  }
+  .u-block-null-143 {
+    height: 100%;
+  }
+  .u-block-null-144 {
+    height: 100%;
+  }
+  .u-block-null-146 {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-147 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-148 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-149 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-150 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-151 {
+    height: 100%;
+  }
+  .u-block-null-152 {
+    height: 100%;
+  }
+  .u-block-null-153 {
+    height: 100%;
+  }
+  .u-block-null-154 {
+    height: 100%;
+  }
+  .u-block-null-156 {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 19px;
+  }
+  .u-block-null-157 {
+    width: 175px;
+    height: 175px;
+    background-position: 50% 50%;
+    animation-duration: 1000ms;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-158 {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-159 {
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-160 {
+    width: NaNpx;
+    min-width: NaNpx;
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    animation-duration: 1000ms;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  .u-block-null-161 {
+    height: 100%;
+  }
+  .u-block-null-162 {
+    height: 100%;
+  }
+  .u-block-null-163 {
+    height: 100%;
+  }
+  .u-block-null-164 {
+    height: 100%;
+  }
+  .u-block-null-165 {
+    position: absolute;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+  }
+  .u-block-null-166 {
+    position: absolute;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+  }
+}</style>
+            </div>
+          </div>
+          <a class="u-absolute-vcenter u-carousel-control u-carousel-control-prev u-spacing-5 u-text-grey-30 u-carousel-control-1" href="#carousel-f73d" role="button" data-u-slide="prev">
+            <span aria-hidden="true">
+              <svg viewBox="0 0 477.175 477.175"><path d="M145.188,238.575l215.5-215.5c5.3-5.3,5.3-13.8,0-19.1s-13.8-5.3-19.1,0l-225.1,225.1c-5.3,5.3-5.3,13.8,0,19.1l225.1,225
+                    c2.6,2.6,6.1,4,9.5,4s6.9-1.3,9.5-4c5.3-5.3,5.3-13.8,0-19.1L145.188,238.575z"></path></svg>
+            </span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="u-absolute-vcenter u-carousel-control u-carousel-control-next u-spacing-5 u-text-grey-30 u-carousel-control-2" href="#carousel-f73d" role="button" data-u-slide="next">
+            <span aria-hidden="true">
+              <svg viewBox="0 0 477.175 477.175"><path d="M360.731,229.075l-225.1-225.1c-5.3-5.3-13.8-5.3-19.1,0s-5.3,13.8,0,19.1l215.5,215.5l-215.5,215.5
+                    c-5.3,5.3-5.3,13.8,0,19.1c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-4l225.1-225.1C365.931,242.875,365.931,234.275,360.731,229.075z"></path></svg>
+            </span>
+            <span class="sr-only">Next</span>
+          </a>
+          <style data-mode="XL">.u-block-null-3 {
+  min-height: 462px;
+  margin-top: -2px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 12px;
+}
+.u-block-null-4 {
+  position: absolute;
+  bottom: 10px;
+}
+.u-block-null-9 {
+  width: 50px;
+  height: 50px;
+}
+.u-block-null-10 {
+  width: 50px;
+  height: 50px;
+}</style>
+          <style data-mode="LG">@media (max-width: 1199px) {
+  .u-block-null-3 {
+    min-height: 462px;
+    margin-top: -2px;
+    margin-bottom: 12px;
+  }
+  .u-block-null-4 {
+    position: absolute;
+    bottom: 10px;
+  }
+  .u-block-null-9 {
+    width: 50px;
+    height: 50px;
+  }
+  .u-block-null-10 {
+    width: 50px;
+    height: 50px;
+  }
+}</style>
+          <style data-mode="MD">@media (max-width: 991px) {
+  .u-block-null-3 {
+    min-height: 462px;
+    margin-top: -2px;
+    margin-bottom: 12px;
+  }
+  .u-block-null-4 {
+    position: absolute;
+    bottom: 10px;
+  }
+  .u-block-null-9 {
+    width: 50px;
+    height: 50px;
+  }
+  .u-block-null-10 {
+    width: 50px;
+    height: 50px;
+  }
+}</style>
+          <style data-mode="SM">@media (max-width: 767px) {
+  .u-block-null-3 {
+    min-height: 462px;
+    margin-top: -2px;
+    margin-bottom: 12px;
+  }
+  .u-block-null-4 {
+    position: absolute;
+    bottom: 10px;
+  }
+  .u-block-null-9 {
+    width: 50px;
+    height: 50px;
+  }
+  .u-block-null-10 {
+    width: 50px;
+    height: 50px;
+  }
+}</style>
+          <style data-mode="XS">@media (max-width: 575px) {
+  .u-block-null-3 {
+    min-height: 462px;
+    margin-top: -2px;
+    margin-bottom: 12px;
+  }
+  .u-block-null-4 {
+    position: absolute;
+    bottom: 10px;
+  }
+  .u-block-null-9 {
+    width: 50px;
+    height: 50px;
+  }
+  .u-block-null-10 {
+    width: 50px;
+    height: 50px;
+  }
+}</style>
+        </div>
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-white u-section-4" id="carousel_ddd2">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <h5 class="u-text u-text-black u-text-default u-text-1">our ​works</h5><span class="u-icon u-icon-circle u-text-palette-2-base u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-9112"></use></svg><svg class="u-svg-content" viewBox="0 0 512 512" id="svg-9112"><path d="m469.539 360.599c-12.87 0-25.74-4.721-36.002-14.162l-26.416-24.304c-5.116-4.708-12.813-4.684-17.902.058l-25.486 23.749c-20.328 18.943-52.175 18.944-72.503 0l-25.486-23.749c-5.088-4.74-12.784-4.766-17.902-.058l-26.416 24.303c-20.525 18.884-51.48 18.883-72.005 0l-26.559-24.436c-5.084-4.678-12.754-4.679-17.839 0l-26.559 24.435c-20.525 18.883-51.48 18.884-72.005 0-8.129-7.479-8.656-20.131-1.178-28.26 7.478-8.128 20.131-8.657 28.26-1.178 5.086 4.679 12.754 4.678 17.84 0l26.559-24.435c20.524-18.883 51.48-18.883 72.004 0l26.56 24.436c5.085 4.678 12.755 4.679 17.84 0l26.415-24.303c9.862-9.073 22.641-14.064 36-14.064h.172c13.422.043 26.236 5.12 36.082 14.295l25.486 23.749c5.12 4.771 12.844 4.771 17.964 0l25.486-23.749c9.846-9.175 22.66-14.251 36.082-14.294 13.404-.019 26.268 4.952 36.172 14.064l26.416 24.303c5.085 4.678 12.755 4.679 17.84 0 8.128-7.479 20.781-6.951 28.26 1.178s6.951 20.781-1.178 28.26c-10.262 9.441-23.132 14.162-36.002 14.162zm36.002-141.163c8.129-7.479 8.656-20.131 1.178-28.26s-20.131-8.657-28.26-1.178c-5.085 4.679-12.755 4.679-17.84 0l-26.416-24.303c-9.904-9.112-22.769-14.082-36.172-14.064-13.422.043-26.236 5.12-36.082 14.294l-25.486 23.749c-5.12 4.771-12.844 4.771-17.964 0l-25.486-23.749c-9.846-9.175-22.66-14.252-36.082-14.295-.057 0-.114 0-.172 0-13.36 0-26.139 4.991-36 14.064l-26.415 24.303c-5.085 4.679-12.755 4.679-17.84 0l-26.56-24.436c-20.524-18.883-51.48-18.882-72.004 0l-26.559 24.435c-5.086 4.678-12.754 4.679-17.84 0-8.128-7.479-20.782-6.951-28.26 1.178-7.479 8.128-6.951 20.781 1.178 28.26 20.524 18.883 51.479 18.883 72.005 0l26.559-24.435c5.085-4.679 12.755-4.679 17.839 0l26.56 24.436c20.524 18.883 51.479 18.883 72.005 0l26.416-24.303c5.118-4.708 12.814-4.682 17.902.058l25.486 23.749c20.329 18.944 52.176 18.943 72.503 0l25.486-23.749c5.089-4.742 12.786-4.765 17.902-.058l26.416 24.304c10.262 9.441 23.132 14.162 36.002 14.162 12.869.001 25.739-4.72 36.001-14.162z"></path></svg></span>
+        <h1 class="u-text u-text-black u-text-2"> Build Great Products</h1>
+        <div class="u-carousel u-gallery u-layout-carousel u-lightbox u-show-text-always u-gallery-1" data-interval="5000" data-u-ride="carousel" id="carousel-2073">
+          <ol class="u-absolute-hcenter u-carousel-indicators u-carousel-indicators-1">
+            <li data-u-target="#carousel-2073" data-u-slide-to="0" class="u-active u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+            <li data-u-target="#carousel-2073" data-u-slide-to="1" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+            <li data-u-target="#carousel-2073" data-u-slide-to="2" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+            <li data-u-target="#carousel-2073" data-u-slide-to="3" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+            <li data-u-target="#carousel-2073" data-u-slide-to="4" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+            <li data-u-target="#carousel-2073" data-u-slide-to="5" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+          </ol>
+          <div class="u-carousel-inner u-gallery-inner u-gallery-inner-1" role="listbox">
+            <div class="u-active u-carousel-item u-effect-hover-zoom u-gallery-item u-carousel-item-1">
+              <div class="u-back-slide" data-image-width="626" data-image-height="417">
+                <img class="u-back-image u-expanded" src="images/logo-mockup-black-facade-sign_145275-281.jpg">
+              </div>
+              <div class="u-over-slide u-over-slide-1">
+                <h3 class="u-gallery-heading">Sample Title</h3>
+                <p class="u-gallery-text">Sample Text</p>
+              </div>
+            </div>
+            <div class="u-carousel-item u-effect-hover-zoom u-gallery-item u-carousel-item-2">
+              <div class="u-back-slide" data-image-width="626" data-image-height="469">
+                <img class="u-back-image u-expanded" src="images/black-white-business-card-mockup-design_47987-2181.jpg">
+              </div>
+              <div class="u-over-slide u-over-slide-2">
+                <h3 class="u-gallery-heading">Sample Title</h3>
+                <p class="u-gallery-text">Sample Text</p>
+              </div>
+            </div>
+            <div class="u-carousel-item u-effect-hover-zoom u-gallery-item u-carousel-item-3">
+              <div class="u-back-slide" data-image-width="549" data-image-height="549">
+                <img class="u-back-image u-expanded" src="images/1ba96b87-604a-4b2b-ac50-8efd59ecabf2.jpg">
+              </div>
+              <div class="u-over-slide u-over-slide-3">
+                <h3 class="u-gallery-heading">Sample Title</h3>
+                <p class="u-gallery-text">Sample Text</p>
+              </div>
+            </div>
+            <div class="u-carousel-item u-effect-hover-zoom u-gallery-item u-carousel-item-4">
+              <div class="u-back-slide" data-image-width="626" data-image-height="417">
+                <img class="u-back-image u-expanded" src="images/3d-lion-logo-mockup_145275-144.jpg">
+              </div>
+              <div class="u-over-slide u-over-slide-4">
+                <h3 class="u-gallery-heading">Sample Title</h3>
+                <p class="u-gallery-text">Sample Text</p>
+              </div>
+            </div>
+            <div class="u-carousel-item u-effect-hover-zoom u-gallery-item u-carousel-item-5">
+              <div class="u-back-slide" data-image-width="626" data-image-height="479">
+                <img class="u-back-image u-expanded" src="images/falling-bussiness-cards-mockup_125540-886.jpg">
+              </div>
+              <div class="u-over-slide u-over-slide-5">
+                <h3 class="u-gallery-heading">Sample Title</h3>
+                <p class="u-gallery-text">Sample Text</p>
+              </div>
+            </div>
+            <div class="u-carousel-item u-effect-hover-zoom u-gallery-item u-carousel-item-6">
+              <div class="u-back-slide" data-image-width="700" data-image-height="878">
+                <img class="u-back-image u-expanded" src="images/trrt.jpg">
+              </div>
+              <div class="u-over-slide u-over-slide-6">
+                <h3 class="u-gallery-heading">Sample Title</h3>
+                <p class="u-gallery-text">Sample Text</p>
+              </div>
+            </div>
+          </div>
+          <a class="u-absolute-vcenter u-carousel-control u-carousel-control-prev u-grey-70 u-icon-circle u-opacity u-opacity-70 u-spacing-10 u-text-white u-carousel-control-1" href="#carousel-2073" role="button" data-u-slide="prev">
+            <span aria-hidden="true">
+              <svg viewBox="0 0 451.847 451.847"><path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0
+c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744
+c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z"></path></svg>
+            </span>
+            <span class="sr-only">
+              <svg viewBox="0 0 451.847 451.847"><path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0
+c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744
+c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z"></path></svg>
+            </span>
+          </a>
+          <a class="u-absolute-vcenter u-carousel-control u-carousel-control-next u-grey-70 u-icon-circle u-opacity u-opacity-70 u-spacing-10 u-text-white u-carousel-control-2" href="#carousel-2073" role="button" data-u-slide="next">
+            <span aria-hidden="true">
+              <svg viewBox="0 0 451.846 451.847"><path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
+L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
+c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"></path></svg>
+            </span>
+            <span class="sr-only">
+              <svg viewBox="0 0 451.846 451.847"><path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
+L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
+c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"></path></svg>
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-white u-section-5" id="sec-6c56">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h2 class="u-text u-text-black u-text-1">Sample Headline</h2>
+        <div class="u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-list u-list-1">
+          <div class="u-repeater u-repeater-1">
+            <div class="u-align-center u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-1">
+                <h1 class="u-text u-text-custom-color-3 u-text-default u-title u-text-2" data-animation-name="counter" data-animation-event="scroll" data-animation-duration="3000">72</h1>
+                <p class="u-text u-text-black u-text-3">Lorem ipsum dolor sit amet</p>
+              </div>
+            </div>
+            <div class="u-align-center u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-2">
+                <h1 class="u-text u-text-custom-color-3 u-text-default u-title u-text-4" data-animation-name="counter" data-animation-event="scroll" data-animation-duration="3000">100</h1>
+                <p class="u-text u-text-black u-text-5">Lorem ipsum dolor sit amet</p>
+              </div>
+            </div>
+            <div class="u-align-center u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-3">
+                <h1 class="u-text u-text-custom-color-3 u-text-default u-title u-text-6" data-animation-name="counter" data-animation-event="scroll" data-animation-duration="3000">87</h1>
+                <p class="u-text u-text-black u-text-7">Lorem ipsum dolor sit amet</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-align-left u-clearfix u-white u-section-6" id="sec-d7ee">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h2 class="u-text u-text-black u-text-default u-text-1">Sample Headline</h2>
+        <div id="carousel-5989" data-interval="5000" data-u-ride="carousel" class="u-carousel u-slider u-slider-1">
+          <ol class="u-absolute-hcenter u-carousel-indicators u-carousel-indicators-1">
+            <li data-u-target="#carousel-5989" class="u-active u-grey-30 u-shape-circle" data-u-slide-to="0" style="width: 10px; height: 10px;"></li>
+            <li data-u-target="#carousel-5989" class="u-grey-30 u-shape-circle" data-u-slide-to="1" style="width: 10px; height: 10px;"></li>
+          </ol>
+          <div class="u-carousel-inner" role="listbox">
+            <div class="u-active u-carousel-item u-container-style u-slide">
+              <div class="u-container-layout u-container-layout-1">
+                <p class="u-align-center u-large-text u-text u-text-black u-text-variant u-text-2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+                <div alt="" class="u-image u-image-circle u-image-1" data-image-width="1280" data-image-height="716"></div>
+                <h4 class="u-align-center u-text u-text-3">
+                  <span class="u-text-black">Connor Quinn</span>
+                  <br>
+                </h4>
+                <h6 class="u-align-center u-text u-text-black u-text-4">Preside<span style="font-size: 1.125rem;"></span>nt, CEO
+                </h6>
+              </div>
+            </div>
+            <div class="u-align-center u-carousel-item u-container-style u-expanded-width u-slide">
+              <div class="u-container-layout u-container-layout-2">
+                <p class="u-align-center u-large-text u-text u-text-variant u-text-5">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+                <div alt="" class="u-image u-image-circle u-image-2" src="" data-image-width="256" data-image-height="256"></div>
+                <h4 class="u-align-center u-text u-text-6">Merry Smith<br>
+                </h4>
+                <h6 class="u-align-center u-text u-text-7">Chief Accountant</h6>
+              </div>
+            </div>
+          </div>
+          <a class="u-absolute-vcenter u-carousel-control u-carousel-control-prev u-text-grey-30 u-carousel-control-1" href="#carousel-5989" role="button" data-u-slide="prev">
+            <span aria-hidden="true">
+              <svg viewBox="0 0 451.847 451.847"><path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0
+c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744
+c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z"></path></svg>
+            </span>
+            <span class="sr-only">
+              <svg viewBox="0 0 451.847 451.847"><path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0
+c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744
+c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z"></path></svg>
+            </span>
+          </a>
+          <a class="u-absolute-vcenter u-carousel-control u-carousel-control-next u-text-grey-30 u-carousel-control-2" href="#carousel-5989" role="button" data-u-slide="next">
+            <span aria-hidden="true">
+              <svg viewBox="0 0 451.846 451.847"><path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
+L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
+c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"></path></svg>
+            </span>
+            <span class="sr-only">
+              <svg viewBox="0 0 451.846 451.847"><path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
+L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
+c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"></path></svg>
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+    
+    
+    <footer class="u-align-center-md u-align-center-sm u-align-center-xs u-clearfix u-footer u-white u-footer" id="sec-5608"><div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-border-7 u-border-custom-color-3 u-expanded-width u-line u-line-horizontal u-line-1"></div>
+        <div class="u-align-left u-social-icons u-spacing-10 u-social-icons-1">
+          <a class="u-social-url" title="" target="_blank" href=""><span class="u-icon u-icon-circle u-social- u-social-icon"></span>
+          </a>
+        </div>
+        <p class="u-align-center-lg u-align-center-md u-align-center-xl u-text u-text-1">De<span style="font-weight: 400;"></span>veloped By <a class="fa fa-heart u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-custom-color-3 u-btn-1" href="https://naiemportfolio.blogspot.com/"> Naiem Hossain</a> | All Right Reseved
+        </p>
+      </div></footer>
+<!-- body Ends -->
+
+<!-- Template JS Files -->
+<script src="../js/jquery-3.5.0.min.js"></script>
+<script src="../js/styleswitcher.js"></script>
+<script src="../js/preloader.min.js"></script>
+<script src="../js/fm.revealator.jquery.min.js"></script>
+<script src="../js/imagesloaded.pkgd.min.js"></script>
+<script src="../js/masonry.pkgd.min.js"></script>
+<script src="../js/classie.js"></script>
+<script src="../js/cbpGridGallery.js"></script>
+<script src="../js/jquery.hoverdir.js"></script>
+<script src="../js/popper.min.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/custom.js"></script>
+
+<!-- about JS  -->
+<script class="u-script" type="text/javascript" src="../js/about-me/jquery-dark.js" defer=""></script>
+<script class="u-script" type="text/javascript" src="../js/about-me/about-me-dark.js" defer=""></script>
+</body>
+
+
+</html>
