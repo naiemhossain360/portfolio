@@ -1185,7 +1185,7 @@ body.light hr.separator {
 }
 
 .blog-post article h1 {
-  font-weight: 600;
+  /*! font-weight: 600; */
   margin: 13px 0 20px;
 }
 

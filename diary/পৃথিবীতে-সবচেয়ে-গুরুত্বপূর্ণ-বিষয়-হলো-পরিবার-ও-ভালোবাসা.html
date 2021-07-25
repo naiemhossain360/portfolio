@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <title>ডায়েরি</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../img/favicon-n.png" type="image/png" sizes="16x16">
+    <!-- Template Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700" rel="stylesheet">
+
+    <!-- Template CSS Files -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/preloader.min.css" rel="stylesheet">
+    <link href="../css/circle.css" rel="stylesheet">
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
+    <link href="../css/fm.revealator.jquery.min.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+	
+	<!-- custom CSS -->
+	<link rel="stylesheet" href="../css/diary/family-1.css" media="screen">
+	<link rel="stylesheet" href="../css/diary/family.css" media="screen">
+	
+
+    <!-- CSS Skin File -->
+    <link href="../css/skins/yellow.css" rel="stylesheet">
+
+    <!-- Live Style Switcher - demo only -->
+    <link rel="alternate stylesheet" type="text/css" title="blue" href="../css/skins/blue.css" />
+    <link rel="alternate stylesheet" type="text/css" title="green" href="../css/skins/green.css" />
+    <link rel="alternate stylesheet" type="text/css" title="yellow" href="../css/skins/yellow.css" />
+    <link rel="alternate stylesheet" type="text/css" title="blueviolet" href="../css/skins/blueviolet.css" />
+    <link rel="alternate stylesheet" type="text/css" title="goldenrod" href="../css/skins/goldenrod.css" />
+    <link rel="alternate stylesheet" type="text/css" title="magenta" href="../css/skins/magenta.css" />
+    <link rel="alternate stylesheet" type="text/css" title="orange" href="../css/skins/orange.css" />
+    <link rel="alternate stylesheet" type="text/css" title="purple" href="../css/skins/purple.css" />
+    <link rel="alternate stylesheet" type="text/css" title="red" href="../css/skins/red.css" />
+    <link rel="alternate stylesheet" type="text/css" title="yellowgreen" href="../css/skins/yellowgreen.css" />
+    <link rel="stylesheet" type="text/css" href="../css/styleswitcher.css" />
+
+    <!-- Modernizr JS File -->
+    <script src="../js/modernizr.custom.js"></script>
+</head>
+
+<body class="blog-post">
+<!-- Live Style Switcher Starts - demo only -->
+<div id="switcher" class="">
+    <div class="content-switcher">
+        <h4>Change Colors</h4>
+        <ul>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('purple');" title="purple" class="color"><img src="../img/styleswitcher/purple.png" alt="purple"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('red');" title="red" class="color"><img src="../img/styleswitcher/red.png" alt="red"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('blueviolet');" title="blueviolet" class="color"><img src="../img/styleswitcher/blueviolet.png" alt="blueviolet"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('blue');" title="blue" class="color"><img src="../img/styleswitcher/blue.png" alt="blue"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('goldenrod');" title="goldenrod" class="color"><img src="../img/styleswitcher/goldenrod.png" alt="goldenrod"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('magenta');" title="magenta" class="color"><img src="../img/styleswitcher/magenta.png" alt="magenta"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('yellowgreen');" title="yellowgreen" class="color"><img src="../img/styleswitcher/yellowgreen.png" alt="yellowgreen"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('orange');" title="orange" class="color"><img src="../img/styleswitcher/orange.png" alt="orange"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('green');" title="green" class="color"><img src="../img/styleswitcher/green.png" alt="green"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('yellow');" title="yellow" class="color"><img src="../img/styleswitcher/yellow.png" alt="yellow"/></a>
+            </li>
+        </ul>
+
+       <div id="hideSwitcher">&times;</div>
+    </div>
+</div>
+<div id="showSwitcher" class="styleSecondColor"><i class="fa fa-cog fa-spin"></i></div>
+<!-- Live Style Switcher Ends - demo only -->
+<!-- Header Starts -->
+<header class="header" id="navbar-collapse-toggle">
+    <!-- Fixed Navigation Starts -->
+    <ul class="icon-menu d-none d-lg-block revealator-slideup revealator-once revealator-delay1">
+        <li class="icon-box">
+            <i class="fa fa-cog"></i>
+            <a href="light-index.html">
+                <h2>Light</h2>
+            </a>
+        </li>
+		<li class="icon-box">
+            <i class="fa fa-home"></i>
+            <a href="index.html">
+                <h2>Home</h2>
+            </a>
+        </li>
+        <li class="icon-box">
+            <i class="fa fa-user"></i>
+            <a href="dark-about.html">
+                <h2>About</h2>
+            </a>
+        </li>
+        <li class="icon-box">
+            <i class="fa fa-briefcase"></i>
+            <a href="dark-portfolio.html">
+                <h2>Portfolio</h2>
+            </a>
+        </li>
+        <li class="icon-box">
+            <i class="fa fa-envelope-open"></i>
+            <a href="dark-contact.html">
+                <h2>Contact</h2>
+            </a>
+        </li>
+        <li class="icon-box active">
+            <i class="fa fa-comments"></i>
+            <a href="dark-blog.html">
+                <h2>Blog</h2>
+            </a>
+        </li>
+    </ul>
+    <!-- Fixed Navigation Ends -->
+    <!-- Mobile Menu Starts -->
+    <nav role="navigation" class="d-block d-lg-none">
+        <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul class="list-unstyled" id="menu">
+				<li><a href="light-index.html"><i class="fa fa-cog"></i><span>Light</span></a></li>
+                <li><a href="index.html"><i class="fa fa-home"></i><span>Home</span></a></li>
+                <li><a href="dark-about.html"><i class="fa fa-user"></i><span>About</span></a></li>
+                <li><a href="dark-portfolio.html"><i class="fa fa-folder-open"></i><span>Portfolio</span></a></li>
+                <li><a href="dark-contact.html"><i class="fa fa-envelope-open"></i><span>Contact</span></a></li>
+                <li class="active"><a href="dark-blog.html"><i class="fa fa-comments"></i><span>Blog</span></a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Mobile Menu Ends -->
+</header>
+<!-- Header Ends -->
+<!-- Page Title Starts -->
+<section class="title-section text-left text-sm-center revealator-slideup revealator-once revealator-delay1">
+    <h1>আমার <span>ডায়েরি </span></h1>
+    <span class="title-bg">মনের যত স্বপ্নগুলো</span>
+</section>
+<!-- Page Title Ends -->
+<!-- Main Content Starts -->
+<section class="main-content revealator-slideup revealator-once revealator-delay1">
+    <div class="container">
+        <div class="row">
+            <!-- Article Starts -->
+            <article class="col-12">
+                <!-- Meta Starts -->
+                <div class="meta open-sans-font">
+                    <span><i class="fa fa-user"></i>নাঈম হোসেন</span>
+                    <span class="date"><i class="fa fa-calendar"></i>প্রকাশিত: সোমবার, ২৮ জুন, ২০২১ </span>
+                    <span><i class="fa fa-tags"></i>ড্রিম </span>
+                </div>
+                <!-- Meta Ends -->
+                <!-- title Starts -->
+                <h1 class="text-uppercase text-capitalize">পৃথিবীতে সবচেয়ে গুরুত্বপূর্ণ বিষয় হলো- পরিবার ও ভালোবাসা ।</h1>
+                <!-- title Ends -->
+            </article>
+            <!-- Article Ends -->
+        </div>
+    </div>
+</section>
+    <section class="u-align-center u-black u-clearfix u-section-1" id="carousel_cb68">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-clearfix u-expanded-width u-gutter-42 u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div class="u-container-style u-expand-resize u-layout-cell u-left-cell u-size-32-lg u-size-32-md u-size-32-sm u-size-32-xs u-size-35-xl u-layout-cell-1">
+                <div class="u-container-layout u-valign-middle-md u-valign-middle-sm u-valign-middle-xs">
+                  <div class="u-palette-3-base u-shape u-shape-rectangle u-shape-1" data-animation-name="zoomIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction=""></div>
+                  <div class="u-border-16 u-border-palette-3-base u-shape u-shape-rectangle u-shape-2" data-animation-name="zoomIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction=""></div>
+                  <img class="u-image u-image-round u-radius-21 u-image-1" src="../img/diary/img-3.gif" data-animation-name="zoomIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
+                </div>
+              </div>
+              <div class="u-container-style u-layout-cell u-right-cell u-size-25-xl u-size-28-lg u-size-28-md u-size-28-sm u-size-28-xs u-layout-cell-2">
+                <div class="u-container-layout u-valign-middle u-container-layout-2">
+                  <h1 class="u-custom-font u-font-oswald u-text u-text-palette-3-base u-text-1">আমার পরিবার</h1>
+                  <p class="u-align-justify u-large-text u-text u-text-variant u-text-2">As you step into our parlour style barbershop, You’ll soon be immersed in the nostalgic atmosphere of a bygone era, with the subtle sounds of cocktail shakers exuding from our adjoining award winning Cocktail Bar.</p>
+                  <a href="http://webneel.com/30-incredible-and-award-winning-fashion-photography-cergelyte-khokhlov-and-witzel" class="u-btn u-btn-round u-button-style u-hover-white u-palette-3-base u-radius-50 u-btn-1" title="learn more" target="_blank">learn more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-black u-clearfix u-section-2" id="sec-2861">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-clearfix u-expanded-width u-gutter-44 u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div class="u-container-style u-expand-resize u-layout-cell u-left-cell u-size-32 u-layout-cell-1">
+                <div class="u-container-layout">
+                  <h2 class="u-text u-text-1">Sample Headline</h2>
+                  <ul class="u-custom-font u-custom-list u-font-open-sans u-text u-text-2">
+                    <li>
+                      <div class="u-list-icon u-list-icon-1">
+                        <svg class="u-svg-content" viewBox="0 -20 464 464" id="svg-076c"><path d="m340 0c-44.773438.00390625-86.066406 24.164062-108 63.199219-21.933594-39.035157-63.226562-63.19531275-108-63.199219-68.480469 0-124 63.519531-124 132 0 172 232 292 232 292s232-120 232-292c0-68.480469-55.519531-132-124-132zm0 0" fill="#ff6243"></path><path d="m32 132c0-63.359375 47.550781-122.359375 108.894531-130.847656-5.597656-.769532-11.242187-1.15625025-16.894531-1.152344-68.480469 0-124 63.519531-124 132 0 172 232 292 232 292s6-3.113281 16-8.992188c-52.414062-30.824218-216-138.558593-216-283.007812zm0 0" fill="#ff5023"></path></svg>
+                      </div>
+                      <span style="font-size: 1.25rem;">Sample Item 1</span>
+                    </li>
+                    <li>
+                      <div class="u-list-icon u-list-icon-1">
+                        <svg class="u-svg-content" viewBox="0 -20 464 464" id="svg-076c"><path d="m340 0c-44.773438.00390625-86.066406 24.164062-108 63.199219-21.933594-39.035157-63.226562-63.19531275-108-63.199219-68.480469 0-124 63.519531-124 132 0 172 232 292 232 292s232-120 232-292c0-68.480469-55.519531-132-124-132zm0 0" fill="#ff6243"></path><path d="m32 132c0-63.359375 47.550781-122.359375 108.894531-130.847656-5.597656-.769532-11.242187-1.15625025-16.894531-1.152344-68.480469 0-124 63.519531-124 132 0 172 232 292 232 292s6-3.113281 16-8.992188c-52.414062-30.824218-216-138.558593-216-283.007812zm0 0" fill="#ff5023"></path></svg>
+                      </div>
+                      <div class="u-list-icon u-list-icon-3">
+                        <svg class="u-svg-content" viewBox="0 -20 464 464" id="svg-076c"><path d="m340 0c-44.773438.00390625-86.066406 24.164062-108 63.199219-21.933594-39.035157-63.226562-63.19531275-108-63.199219-68.480469 0-124 63.519531-124 132 0 172 232 292 232 292s232-120 232-292c0-68.480469-55.519531-132-124-132zm0 0" fill="#ff6243"></path><path d="m32 132c0-63.359375 47.550781-122.359375 108.894531-130.847656-5.597656-.769532-11.242187-1.15625025-16.894531-1.152344-68.480469 0-124 63.519531-124 132 0 172 232 292 232 292s6-3.113281 16-8.992188c-52.414062-30.824218-216-138.558593-216-283.007812zm0 0" fill="#ff5023"></path></svg>
+                      </div>
+                      <span style="font-size: 1.25rem;">Sam​ple Item 2</span>
+                    </li>
+                    <li>
+                      <div class="u-list-icon u-list-icon-1">
+                        <svg class="u-svg-content" viewBox="0 -20 464 464" id="svg-076c"><path d="m340 0c-44.773438.00390625-86.066406 24.164062-108 63.199219-21.933594-39.035157-63.226562-63.19531275-108-63.199219-68.480469 0-124 63.519531-124 132 0 172 232 292 232 292s232-120 232-292c0-68.480469-55.519531-132-124-132zm0 0" fill="#ff6243"></path><path d="m32 132c0-63.359375 47.550781-122.359375 108.894531-130.847656-5.597656-.769532-11.242187-1.15625025-16.894531-1.152344-68.480469 0-124 63.519531-124 132 0 172 232 292 232 292s6-3.113281 16-8.992188c-52.414062-30.824218-216-138.558593-216-283.007812zm0 0" fill="#ff5023"></path></svg>
+                      </div>
+                      <div class="u-list-icon u-list-icon-5">
+                        <svg class="u-svg-content" viewBox="0 -20 464 464" id="svg-076c"><path d="m340 0c-44.773438.00390625-86.066406 24.164062-108 63.199219-21.933594-39.035157-63.226562-63.19531275-108-63.199219-68.480469 0-124 63.519531-124 132 0 172 232 292 232 292s232-120 232-292c0-68.480469-55.519531-132-124-132zm0 0" fill="#ff6243"></path><path d="m32 132c0-63.359375 47.550781-122.359375 108.894531-130.847656-5.597656-.769532-11.242187-1.15625025-16.894531-1.152344-68.480469 0-124 63.519531-124 132 0 172 232 292 232 292s6-3.113281 16-8.992188c-52.414062-30.824218-216-138.558593-216-283.007812zm0 0" fill="#ff5023"></path></svg>
+                      </div>
+                      <span style="font-size: 1.25rem;">Sample Item 3</span>
+                    </li>
+                    <li>
+                      <div class="u-list-icon u-list-icon-1">
+                        <svg class="u-svg-content" viewBox="0 -20 464 464" id="svg-076c"><path d="m340 0c-44.773438.00390625-86.066406 24.164062-108 63.199219-21.933594-39.035157-63.226562-63.19531275-108-63.199219-68.480469 0-124 63.519531-124 132 0 172 232 292 232 292s232-120 232-292c0-68.480469-55.519531-132-124-132zm0 0" fill="#ff6243"></path><path d="m32 132c0-63.359375 47.550781-122.359375 108.894531-130.847656-5.597656-.769532-11.242187-1.15625025-16.894531-1.152344-68.480469 0-124 63.519531-124 132 0 172 232 292 232 292s6-3.113281 16-8.992188c-52.414062-30.824218-216-138.558593-216-283.007812zm0 0" fill="#ff5023"></path></svg>
+                      </div>
+                      <span style="font-size: 1.25rem;">vvvv</span>
+                    </li>
+                    <li>
+                      <div class="u-list-icon u-list-icon-1">
+                        <svg class="u-svg-content" viewBox="0 -20 464 464" id="svg-076c"><path d="m340 0c-44.773438.00390625-86.066406 24.164062-108 63.199219-21.933594-39.035157-63.226562-63.19531275-108-63.199219-68.480469 0-124 63.519531-124 132 0 172 232 292 232 292s232-120 232-292c0-68.480469-55.519531-132-124-132zm0 0" fill="#ff6243"></path><path d="m32 132c0-63.359375 47.550781-122.359375 108.894531-130.847656-5.597656-.769532-11.242187-1.15625025-16.894531-1.152344-68.480469 0-124 63.519531-124 132 0 172 232 292 232 292s6-3.113281 16-8.992188c-52.414062-30.824218-216-138.558593-216-283.007812zm0 0" fill="#ff5023"></path></svg>
+                      </div>
+                      <span style="font-size: 1.25rem;">vvvvvv</span>
+                    </li>
+                    <li>
+                      <div class="u-list-icon u-list-icon-1">
+                        <svg class="u-svg-content" viewBox="0 -20 464 464" id="svg-076c"><path d="m340 0c-44.773438.00390625-86.066406 24.164062-108 63.199219-21.933594-39.035157-63.226562-63.19531275-108-63.199219-68.480469 0-124 63.519531-124 132 0 172 232 292 232 292s232-120 232-292c0-68.480469-55.519531-132-124-132zm0 0" fill="#ff6243"></path><path d="m32 132c0-63.359375 47.550781-122.359375 108.894531-130.847656-5.597656-.769532-11.242187-1.15625025-16.894531-1.152344-68.480469 0-124 63.519531-124 132 0 172 232 292 232 292s6-3.113281 16-8.992188c-52.414062-30.824218-216-138.558593-216-283.007812zm0 0" fill="#ff5023"></path></svg>
+                      </div>
+                      <span style="font-size: 1.25rem;">vvvvvv</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="u-align-left u-container-style u-layout-cell u-right-cell u-size-28 u-layout-cell-2">
+                <div class="u-container-layout u-container-layout-2">
+                  <div class="u-align-left u-border-10 u-border-palette-3-base u-radius-50 u-shape u-shape-round u-shape-1" data-animation-name="tada" data-animation-duration="1000" data-animation-delay="0" data-animation-direction=""></div>
+                  <img class="u-align-left u-image u-image-round u-radius-50 u-image-1" data-image-width="1280" data-image-height="849" src="images/4df8b5811579d19e83c590d4c05c452feb277807e8bf5390752ca51c8646dda84a5bba37f8feeab293872123106690121d2d36f75dd1473a67485d_12801.jpg" data-animation-name="tada" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    <footer class="u-align-center-md u-align-center-sm u-align-center-xs u-black u-clearfix u-footer u-footer" id="sec-5608"><div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-border-7 u-border-palette-3-base u-expanded-width u-line u-line-horizontal u-line-1"></div>
+        <div class="u-align-left u-social-icons u-spacing-10 u-social-icons-1">
+          <a class="u-social-url" title="" target="_blank" href=""><span class="u-icon u-icon-circle u-social- u-social-icon"></span>
+          </a>
+        </div>
+        <p class="u-align-center-lg u-align-center-md u-align-center-xl u-text u-text-1">De<span style="font-weight: 400;"></span>veloped By <a class=" u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-3-base u-btn-1" href="https://naiemportfolio.blogspot.com/"> Naiem Hossain</a> | All Right Reseved
+        </p>
+      </div></footer>
+<!-- Template JS Files -->
+<script src="../js/jquery-3.5.0.min.js"></script>
+<script src="../js/styleswitcher.js"></script>
+<script src="../js/preloader.min.js"></script>
+<script src="../js/fm.revealator.jquery.min.js"></script>
+<script src="../js/imagesloaded.pkgd.min.js"></script>
+<script src="../js/masonry.pkgd.min.js"></script>
+<script src="../js/classie.js"></script>
+<script src="../js/cbpGridGallery.js"></script>
+<script src="../js/jquery.hoverdir.js"></script>
+<script src="../js/popper.min.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/custom.js"></script>
+
+<!-- custom CSS -->
+    <script class="u-script" type="text/javascript" src="../js/service/jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="../js/diary/family.js" defer=""></script>
+</body>
+
+
+</html>

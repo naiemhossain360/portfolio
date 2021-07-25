@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>♥ Love at First Sight ♥</title>
+    <title>ডায়েরি</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="../img/favicon-n.png" type="image/png" sizes="16x16">
     <!-- Template Google Fonts -->
@@ -19,9 +19,6 @@
     <link href="../css/fm.revealator.jquery.min.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet">
 
-    <!-- CSS Diary File -->
-	<link rel="stylesheet" href="../css/diary/style.css">
-	
     <!-- CSS Skin File -->
     <link href="../css/skins/yellow.css" rel="stylesheet">
 
@@ -40,14 +37,13 @@
 
     <!-- Modernizr JS File -->
     <script src="../js/modernizr.custom.js"></script>
-	
 </head>
 
 <body class="blog-post">
 <!-- Live Style Switcher Starts - demo only -->
 <div id="switcher" class="">
     <div class="content-switcher">
-        <h4>রঙ পরিবর্তন করুন</h4>
+        <h4>Change Colors</h4>
         <ul>
             <li>
                 <a href="#" onclick="setActiveStyleSheet('purple');" title="purple" class="color"><img src="../img/styleswitcher/purple.png" alt="purple"/></a>
@@ -90,35 +86,40 @@
 <header class="header" id="navbar-collapse-toggle">
     <!-- Fixed Navigation Starts -->
     <ul class="icon-menu d-none d-lg-block revealator-slideup revealator-once revealator-delay1">
-
+        <li class="icon-box">
+            <i class="fa fa-cog"></i>
+            <a href="light-index.html">
+                <h2>Light</h2>
+            </a>
+        </li>
 		<li class="icon-box">
             <i class="fa fa-home"></i>
-            <a href="../index.html">
-                <h2>হোম</h2>
+            <a href="index.html">
+                <h2>Home</h2>
             </a>
         </li>
         <li class="icon-box">
-            <i class="fa fa-users"></i>
-            <a href="#">
-                <h2>টিম</h2>
+            <i class="fa fa-user"></i>
+            <a href="dark-about.html">
+                <h2>About</h2>
             </a>
         </li>
         <li class="icon-box">
             <i class="fa fa-briefcase"></i>
-            <a href="#">
-                <h2>সার্ভিস </h2>
+            <a href="dark-portfolio.html">
+                <h2>Portfolio</h2>
             </a>
         </li>
         <li class="icon-box">
             <i class="fa fa-envelope-open"></i>
-            <a href="../contact/contact-bangla-dark.html">
-                <h2>যোগাযোগ </h2>
+            <a href="dark-contact.html">
+                <h2>Contact</h2>
             </a>
         </li>
-        <li class="icon-box">
+        <li class="icon-box active">
             <i class="fa fa-comments"></i>
-            <a href="#">
-                <h2>ব্লগ </h2>
+            <a href="dark-blog.html">
+                <h2>Blog</h2>
             </a>
         </li>
     </ul>
@@ -131,32 +132,55 @@
             <span></span>
             <span></span>
             <ul class="list-unstyled" id="menu">
-				<li><a href="../index.html"><i class="fa fa-home"></i><span>হোম</span></a></li>
-                <li><a href="#"><i class="fa fa-users"></i><span>টিম</span></a></li>
-                <li><a href="#"><i class="fa fa-briefcase"></i><span>সার্ভিস</span></a></li>
-                <li><a href="../contact/contact-bangla-dark.html"><i class="fa fa-envelope-open"></i><span>যোগাযোগ</span></a></li>
-                <li><a href="#"><i class="fa fa-comments"></i><span>ব্লগ</span></a></li>
+				<li><a href="light-index.html"><i class="fa fa-cog"></i><span>Light</span></a></li>
+                <li><a href="index.html"><i class="fa fa-home"></i><span>Home</span></a></li>
+                <li><a href="dark-about.html"><i class="fa fa-user"></i><span>About</span></a></li>
+                <li><a href="dark-portfolio.html"><i class="fa fa-folder-open"></i><span>Portfolio</span></a></li>
+                <li><a href="dark-contact.html"><i class="fa fa-envelope-open"></i><span>Contact</span></a></li>
+                <li class="active"><a href="dark-blog.html"><i class="fa fa-comments"></i><span>Blog</span></a></li>
             </ul>
         </div>
     </nav>
     <!-- Mobile Menu Ends -->
 </header>
 <!-- Header Ends -->
-<!-- Diary Starts -->
-<section>
-  <div class="main-part">
-   <span></span>
-   <span></span>
-   <span></span>
-    <div class="content">
-      <h1>প্রথম ভালোবাসা</h1>
-      <p align="justify">♥একটু আগে যাকে দেখলাম 💘 , জানি না সে কে, কিন্তু মনে হলো যেন যুগ যুগ ধরে ওর সঙ্গে আমার এক গভীর সম্পর্ক আছে , ও যেন এক নীল কন্ঠ পাখি , আমার চোখের সামনে দিয়ে উড়ে গেল ,  কিংবা আমার মনের গভীরে লুকিয়ে থাকা অদেখা এক ভালবাসা♥	</p>
-      <a href="../diary/story/login-love-story-miss-u-love.html">আরও পড়ুন </a>
-    </div>
-  </div>
+<!-- Page Title Starts -->
+<section class="title-section text-left text-sm-center revealator-slideup revealator-once revealator-delay1">
+    <h1>আমার <span>ডায়েরি </span></h1>
+    <span class="title-bg">মনের যত স্বপ্নগুলো</span>
 </section>
-<!-- Diary Ends -->
+<!-- Page Title Ends -->
+<!-- Main Content Starts -->
+<section class="main-content revealator-slideup revealator-once revealator-delay1">
+    <div class="container">
+        <div class="row">
+            <!-- Article Starts -->
+            <article class="col-12">
+                <!-- Meta Starts -->
+                <div class="meta open-sans-font">
+                    <span><i class="fa fa-user"></i>নাঈম হোসেন</span>
+                    <span class="date"><i class="fa fa-calendar"></i>প্রকাশিত: সোমবার, ২৮ জুন, ২০২১ </span>
+                    <span><i class="fa fa-tags"></i>ড্রিম </span>
+                </div>
+                <!-- Meta Ends -->
+                <!-- Article Content Starts -->
+                <h1 class="text-uppercase text-capitalize">পৃথিবীতে সবচেয়ে গুরুত্বপূর্ণ বিষয় হলো- পরিবার ও ভালোবাসা ।</h1>
+                <img src="../img/blog/blog-post-3.png" class="img-fluid" class="center" alt="Blog image"/>
+                
+				<div class="blog-excerpt open-sans-font pb-5">
+					
+					<p align="justify">একজন সফল ওয়েব ডেভেলপার হওয়ার এমন কোনো কোর্স কিট নেই যেটা মেনে বাক্সে টিক দিয়ে দিয়ে আপনাকে এগোতে হবে। এই পেশায় এমন অনেকেই আছেন যারা স্বশিক্ষিত অর্থাৎ Self-taught। আবার এমনও অনেকে আছেন যারা এই ফিল্ডে পড়াশোনা করেও পেশা হিসেবে অন্য কিছু বেছে নিয়েছেন।
+					</p>
+										
+                </div>
+					
 
+                <!-- Article Content Ends -->
+            </article>
+            <!-- Article Ends -->
+        </div>
+    </div>
+</section>
 <!-- Template JS Files -->
 <script src="../js/jquery-3.5.0.min.js"></script>
 <script src="../js/styleswitcher.js"></script>
