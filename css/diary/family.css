@@ -19,7 +19,7 @@
   height: 384px;
   background-image: none;
   animation-duration: 1000ms;
-  margin: 259px auto 0 0;
+  margin: 259px auto 51px 0;
 }
 
 .u-section-1 .u-shape-2 {
@@ -34,7 +34,7 @@
 .u-section-1 .u-image-1 {
   width: 549px;
   height: 416px;
-  box-shadow: 2px -2px 8px 0 rgba(128,128,128,1);
+  /*! box-shadow: 2px -2px 8px 0 rgba(128,128,128,1); */
   object-position: 28.7% 100%;
   animation-duration: 1000ms;
   margin: -330px auto 0 54px;
@@ -283,18 +283,18 @@
 }
 
 .u-section-2 .u-shape-1 {
-  height: 412px;
-  width: 429px;
+  height: 360px;
+  width: 360px;
   background-image: none;
   animation-duration: 1000ms;
   margin: 43px auto 0 12px;
 }
 
 .u-section-2 .u-image-1 {
-  width: 399px;
-  height: 385px;
+  width: 360px;
+  height: 382px;
   animation-duration: 1000ms;
-  margin: -455px 0 0 auto;
+  margin: -435px 52px 0 auto;
 }
 
 @media (max-width: 1199px) {
