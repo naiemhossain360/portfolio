@@ -8248,14 +8248,14 @@ h1, h2, h3, h4, h5,
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 1px solid rgba(0, 0, 0, 0.05);
+    border: 1px solid rgb(255, 180, 0);
     font-size: 16px;
     margin-right: 5px;
     border-radius: 50%; }
     .social-media .social-icon span {
       color: #999999; }
     .social-media .social-icon:hover, .social-media .social-icon:focus {
-      background: #e3b04b; }
+      background: #ffb400; }
       .social-media .social-icon:hover span, .social-media .social-icon:focus span {
         color: #fff; }
 
