@@ -1,13 +1,13 @@
-
-var a=prompt("User Name");
- var b=prompt("Password");
-  	if(a== "admin" && b=="4321")
+function authenticate(){
+	var uname = document.querySelector("#username").value;
+	var pass = document.querySelector("#password").value;
+	if(uname== "1"&& pass=="1")
   	{
-  	    window.location.href="resume-bangla-light.html";
+  	    window.location.href="resume-bangla-dark.html";
   	}
   	else
   	{
-  		alert("Sorry Your User Name & Password Invalid");
-  		window.location.href="login-resume-bangla-light.html";
-  	}
-  	
+  		alert("Your Username & Password Invalid.");
+  		window.location.href="login-resume-bangla-dark.html";
+  	}	
+};
