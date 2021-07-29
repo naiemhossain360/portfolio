@@ -23297,7 +23297,7 @@ a.u-link.u-hover-palette-4-light-3:hover {
 .u-button-style.u-palette-4-base,
 .u-button-style.u-palette-4-base[class*="u-border-"] {
   color: #ffffff !important;
-  background-color: #2cccc4 !important;
+  background-color: #ffb400 !important;
 }
 .u-button-style.u-palette-4-base:hover,
 .u-button-style.u-palette-4-base[class*="u-border-"]:hover,
@@ -24148,7 +24148,7 @@ a.u-button-style.u-button-style.active > .u-active-white[class*="u-border-"],
 li.active > a.u-button-style.u-button-style.u-active-white,
 li.active > a.u-button-style.u-button-style.u-active-white[class*="u-border-"] {
   color: #111111 !important;
-  background-color: #ffffff !important;
+  background-color: #f20808 !important;
 }
 a.u-link.u-hover-white:hover {
   color: #ffffff !important;
@@ -24158,7 +24158,7 @@ a.u-link.u-hover-white:hover {
 .u-container-style.u-black:before,
 .u-table-alt-black tr:nth-child(even) {
   color: #ffffff;
-  background-color: #000000;
+  /*! background-color: #000000; */
 }
 .u-button-style.u-black,
 .u-button-style.u-black[class*="u-border-"] {
@@ -31602,7 +31602,7 @@ a.u-link.u-text-hover-palette-4-dark-3:hover {
 .u-text-palette-4-dark-2,
 a.u-button-style.u-text-palette-4-dark-2,
 a.u-button-style.u-text-palette-4-dark-2[class*="u-border-"] {
-  color: #41807c !important;
+  color: #111 !important;
 }
 a.u-button-style.u-text-palette-4-dark-2:hover,
 a.u-button-style.u-text-palette-4-dark-2[class*="u-border-"]:hover,
@@ -31878,7 +31878,7 @@ a.u-link.u-text-hover-palette-4-light-3:hover {
 .u-text-palette-4-base,
 a.u-button-style.u-text-palette-4-base,
 a.u-button-style.u-text-palette-4-base[class*="u-border-"] {
-  color: #2cccc4 !important;
+  color: #ffb400 !important;
 }
 a.u-button-style.u-text-palette-4-base:hover,
 a.u-button-style.u-text-palette-4-base[class*="u-border-"]:hover,
@@ -32642,7 +32642,7 @@ a.u-button-style.u-button-style.active > .u-text-active-white[class*="u-border-"
 :not(.level-2) > .u-nav > .u-nav-item > a.u-nav-link.u-nav-link.u-text-active-white.active,
 .u-popupmenu-items.u-text-hover-white .u-nav-link:hover,
 .u-popupmenu-items.u-popupmenu-items.u-text-active-white .u-nav-link.active {
-  color: #fbf6f6 !important;
+  color: #fbf5f5 !important;
 }
 .u-text-white svg,
 .u-text-hover-white:hover svg,
