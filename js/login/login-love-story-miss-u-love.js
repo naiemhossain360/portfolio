@@ -1,13 +1,13 @@
-
-var a=prompt("User Name");
- var b=prompt("Password");
-  	if(a== "Naiem" && b=="Treema")
+function authenticate(){
+	var uname = document.querySelector("#username").value;
+	var pass = document.querySelector("#password").value;
+	if(uname== "Naiem"&& pass=="Treema")
   	{
-  	    window.location.href="love-at-first-sight-miss-u-love.html";
+  	    window.location.href="my-love-at-first-sight-my-love-story.html";
   	}
   	else
   	{
-  		alert("Sorry Your User Name & Password Invalid");
+  		alert("Your Username & Password Invalid.");
   		window.location.href="login-love-story-miss-u-love.html";
-  	}
-  	
+  	}	
+};
